@@ -1,0 +1,334 @@
+@media (max-width: 370px) and (min-width: 280px) {
+
+    .loginGoogle{
+        width: 80%;
+        font-size: 13px;
+    }
+    
+    .login-google{
+        margin: 20px 0;
+    }
+
+    .login-btn button, .signUp-btn button, .addForm-btn button, .search-btn button, .start-btn button, .loginGoogle,
+    .start-btn button, .start-btn button, .add-btn button, .end-btn button{
+        width: 100%;
+    }
+
+    .register-link, .login-link{
+        font-size: 13px;
+    }
+
+    .navbar-brand img{
+        width: 50%;
+    }
+
+    .programme-img-side{
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .input-topSpace{
+        margin-top: 80px;
+    }
+
+    .body{
+        background-color: white;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    .overlay { 
+        top: 50%;
+    }
+
+    .logo img{
+        width: 50px;
+    }
+
+    /*Login / signup / Add-Guest*/
+    .body{
+        background-color: white;
+    }
+
+    .box-container{
+        border: none;
+        margin: auto;
+    }
+
+    .login-form .p1, .signUp-form-side .p1, .addFiles-form-side .p1{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .login img, .signUp-img-side img, .addFiles-img-side img, .programme-img-side img{
+        width: 260px;
+    }
+
+    .login-form, .signUp-form-side, .addFiles-form-side{
+        padding: 15px 30px;
+    }
+
+    .or-img img{
+        width: 80px;
+    }
+
+    .login-img h4, .signUp-img-side h4, .addFiles-img-side h4, .programme-img-side h4{
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+    .register-link{
+        margin-top: 30px;
+    }
+
+    .login-link{
+        margin-top: 10px;
+    }
+
+    .login-btn button, .signUp-btn button, .addForm-btn button, .search-btn button{
+        margin: 10px 0;
+    }
+
+    .login-google{
+        margin: 10px 0;
+    }
+
+    .forget{
+        margin-bottom: 20px
+    }
+
+    .input-icons i {
+        right: 30px
+    }
+
+    /*Homepage*/
+
+    .nav-item .navbar-link, .nav-link {
+        margin: 0;
+        color: #2c2c2c;
+        width: auto;
+        padding: 20px 0 0 0;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .nav-item a{
+        display: block;
+    }
+
+    .navbar-nav{
+        align-items: flex-start;
+        float: none;
+        margin: 0;
+        background-color: white;
+        padding-bottom: 10px;
+    }
+       
+    .navbar-nav li button{
+        background-color: white;
+        padding: 20px 0 0 0;
+        border-radius: 0;
+        margin: auto;
+    }
+    
+    .navbar-nav .nav-item button{
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .navbar-brand img{
+        width: 50%;
+    }
+
+    .search-form-side, .programme-text-side{
+        padding: 10px 25px;
+    }
+
+    .search-btn button, .start-btn button,
+    .start-btn button, .add-btn button, .end-btn button{
+        width: 90%;
+    }
+
+    .values{
+        padding: 15px;
+    }
+
+    .value-box, .profile-box {
+        margin-left: 0;
+        padding: 10px 0px;
+    }
+
+    /* Profile */
+
+    .profile-img{
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .profile{
+        padding: 40px 30px;
+    }
+
+    .scrollInvite-img-side img{
+        width: 150px;
+    }
+
+    /* Programme */
+    
+    .stage{
+        font-size: 13px;
+        margin: auto;
+    }
+
+    .programme-list{
+        margin: auto;
+    }
+
+    .programme-img-side, .login img, .signUp-img-side, .addFiles-img-side, .programme-img-side{
+        padding: 0px;
+    }
+   
+    /* horizontal scroll 
+
+    .scrolling-wrapper {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+
+    .card {
+        display: inline-block;
+    }
+
+    .profile-box {
+        border: none;
+    } */
+   
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+
+    .overlay { 
+        top: 28%;
+    }
+
+    .logo img{
+        width: 50px;
+    }
+
+    /*Login / signup / Add-Guest*/
+    .body{
+        background-color: white;
+    }
+
+    .box-container{
+        margin: 120px auto;
+    }
+
+    .login img, .signUp-img-side img, .addFiles-img-side img, .programme-img-side img{
+        width: 350px;
+    }
+
+    .login-form, .signUp-form-side, .addFiles-form-side{
+        padding: 20px 30px;
+    }
+
+    .or-img img{
+        width: 100px;
+    }
+
+    .input-icons i {
+        right: 20px
+    }
+
+    /* Homepage */
+
+    .search-form-side, .programme-text-side{
+        padding: 10px 20px;
+
+    }
+
+    .scrollInvite-img-side img{
+        width: 150px;
+    }
+
+    .programme-img-side{
+        padding: 10px;
+    }
+
+    .programme-text-side{
+        padding: 5;
+    }
+
+    .time{
+        margin-right: auto
+    }
+
+    .start-btn button, .add-btn button, .end-btn button, .search-btn button{
+        width: 80%;
+    }
+
+    /* profile */
+
+    .profile {
+        padding: 0 20px;
+    }
+
+    .profile-side{
+        margin-top: 30px;
+    }
+
+    /* Homepage */
+
+    .nav-item .navbar-link, .nav-link {
+        margin: 0;
+        color: #2c2c2c;
+        width: auto;
+        padding: 20px 0 0 0;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .nav-item a{
+        display: block;
+    }
+
+    .navbar-nav{
+        align-items: flex-start;
+        float: none;
+        margin: 0;
+        background-color: white;
+        padding-bottom: 10px;
+    }
+       
+    .navbar-nav li button{
+        background-color: white;
+        padding: 20px 0 0 0;
+        border-radius: 0;
+        margin: auto;
+    }
+    
+    .navbar-nav .nav-item button{
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+
+
+}
+
+@media (max-width: 1100px) and (min-width: 992px) {
+    .login-form, .signUp-form-side, .addFiles-form-side{
+        padding: 20px 30px;
+    }
+
+    .logo img{
+        width: 50px;
+    }
+
+    /* Homepage */
+}
