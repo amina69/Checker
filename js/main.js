@@ -1,5 +1,5 @@
 let logout = document.querySelector(".logout");
-let input = document.querySelector(".input");
+let input = document.querySelectorAll(".input");
 
 
 function login() {
@@ -13,6 +13,6 @@ logout.addEventListener("click", () => {
 })
 
 input.addEventListener("click", () => {
-    alert("work")
-})
-
+    if (input.value > 0) {
+    this.classList.remove("icon")
+}})

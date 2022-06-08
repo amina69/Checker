@@ -350,6 +350,8 @@ li a, button a{
 }
 
 .icon-js{
+    padding: 5px;
+    min-width: 40px;
     display: none
 }
 

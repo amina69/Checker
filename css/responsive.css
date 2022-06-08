@@ -1,4 +1,7 @@
 @media (max-width: 370px) and (min-width: 280px) {
+    .logo h1{
+        font-size: 25px;
+    }
 
     .loginGoogle{
         width: 80%;
@@ -39,7 +42,10 @@
 
 
 @media (max-width: 768px) {
-
+    .logo h1{
+        font-size: 25px;
+    }
+    
     .overlay { 
         top: 50%;
     }
