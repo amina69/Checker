@@ -349,6 +349,10 @@ li a, button a{
     color: rgb(228, 161, 255);
 }
 
+.icon-js{
+    display: none
+}
+
 .input-icons i {
     position: absolute;
     right: 50px
