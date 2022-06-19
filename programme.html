@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,159 +14,323 @@
     <link rel="stylesheet" href="css/responsive.css">
     <title>Programme</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container">
-            <div class="navbar-brand">
-                <img src="assets/logo-nav.png" alt="nav-logo">
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse justify-content-end" id="nav-menu">
-            <ul class="navbar-nav justify-content-end">
-                <li class="nav-item active">
-                <a class="navbar-link" href="homePage.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                <a class="navbar-link" href="add.html">Add Guest</a>
-                </li>
-                <li class="nav-item">
-                <a class="navbar-link" href="#">Search Guest</a>
-                </li>
-                <li class="nav-item">
-                <a class="navbar-link" href="programme.html">Programme</a>
-                </li>
-                <li class="nav-item">
-                    <a class="navbar-link">Invite</a>
-                </li>
-                <li class="nav-item">
-                    <a class="navbar-link">New</a>
-                </li>
-                <li class="nav-item">
-                    <a class="navbar-link">Discard</a>
-                </li>
-                <li class="nav-item">
-                    <a class="navbar-link" href="index.html">Log Out</a>
-                </li>
-            </ul>
-            </div>
-            </div>
-        </nav>
-          
-        <div class="container programme">
+
+    <!-- Side navigation -->
+    <div class="sidenav">
+        <div class="navbar-brand">
+            <img src="assets/logo-nav.png" alt="nav-logo">
+        </div>
+
+        <div class="link d-flex flex-row">
             <div class="row">
-                <div class="col-md-6 programme-img-side text-center">
-                    <img src="assets/programme.jpg" alt="programme-img">
-                    <h4 class="wow animate__animated animate__slideInLeft">Keep track of the programme</h4>
+                <div class="col-md-2">
+                    <i class="fa fa-laptop" aria-hidden="true"></i>
                 </div>
 
-                <div class="col-md-6 programme-text-side text-center">
-                    <div class="Programme-side">
-                        <div class="start-btn text-center mt-1">
-                            <button>Start</button>
-                        </div>
-                    
-                        <div class="row programme-list ml-auto my-1">
-                            <div class="col-md-8 stage mr-auto">
-                                Introduction
-                            </div>
-        
-                            <div class="col-md-2 time">
-                                9:00AM
-                            </div>
-                        </div>
-        
-                        <div class="row programme-list ml-auto my-1">
-                            <div class="col-md-8 stage mr-auto align-self-right">
-                                Opening Prayer fron the chairman
-                            </div>
-        
-                            <div class="col-md-2 time">
-                                10:00AM
-                            </div>
-                        </div>
-        
-                        <div class="row programme-list ml-auto my-1">
-                            <div class="col-md-8 stage mr-auto">
-                                Short lecture by the vice-president
-                            </div>
-        
-                            <div class="col-md-2 time">
-                                11:00PM
-                            </div>
-                        </div>
-        
-                        <div class="row programme-list ml-auto my-1">
-                            <div class="col-md-8 stage mr-auto">
-                                Tea Break
-                            </div>
-        
-                            <div class="col-md-2 time">
-                                12:00PM
-                            </div>
-                        </div>
-        
-                        <div class="row programme-list ml-auto my-1">
-                            <div class="col-md-8 stage mr-auto">
-                                Speech from the president
-                            </div>
-        
-                            <div class="col-md-2 time">
-                                1:00PM
-                            </div>
-                        </div>
-        
-        
-                        <div class="row programme-list ml-auto my-1">
-                            <div class="col-md-8 stage mr-auto">
-                                Game Time
-                            </div>
-        
-                            <div class="col-md-2 time">
-                                2:00PM
-                            </div>
-                        </div>
-        
-                        <div class="row programme-list ml-auto my-1">
-                            <div class="col-md-8 stage mr-auto">
-                                Voting
-                            </div>
-        
-                            <div class="col-md-2 time">
-                                3:00PM
-                            </div>
-                        </div>
-        
-                    <!--<div class="row programme-list ml-auto my-1">
-                            <div class="col-md-8 stage mr-auto">
-                                Menu Menu
-                            </div>
-        
-                            <div class="col-md-2 time">
-                                4:00PM
-                            </div>
-                        </div>-->
-                        
-                            <div class="add-btn text-center mt-4">
-                                <button>Add Programme</button>
-                            </div>
+                <div class="col-md-2">
+                    <a href="homePage.html">Dashboard</a>
+                </div>
+            </div>
+        </div>
 
-                            <div class="end-btn text-center">
-                                <button>End</button>
-                            </div>
+        <div class="link d-flex flex-row">
+            <div class="row">
+                <div class="col-md-2">
+                    <i class="fa fa-th" aria-hidden="true"></i>
+                </div>
 
+                <div class="col-md-2">
+                    <a href="events.html">Events</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="link d-flex flex-row">
+            <div class="row">
+                <div class="col-md-2">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </div>
+
+                <div class="col-md-2">
+                    <a href="profile.html">Profile</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="link d-flex flex-row">
+            <div class="row">
+                <div class="col-md-2">
+                    <i class="fa fa-list-ol" aria-hidden="true"></i>
+                </div>
+
+                <div class="col-md-2">
+                    <a href="programme.html">Programme</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="link d-flex flex-row">
+            <div class="row">
+                <div class="col-md-2">
+                    <i class="fa fa-smile-o" aria-hidden="true"></i>
+                </div>
+
+                <div class="col-md-2">
+                    <a href="services.html">Services</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="link d-flex flex-row">
+            <div class="row">
+                <div class="col-md-2">
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                </div>
+
+                <div class="col-md-2">
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="link d-flex flex-row">
+            <div class="row">
+                <div class="col-md-2">
+                    <i class="fa fa-trash-o" aria-hidden="true"></i>
+                </div>
+
+                <div class="col-md-2">
+                    <a href="#">Discard</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="link d-flex flex-row">
+            <div class="row">
+                <div class="col-md-2">
+                    <i class="fa fa-sign-out" aria-hidden="true"></i>
+                </div>
+
+                <div class="col-md-2">
+                    <a href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer-nav d-flex flex-row">
+            <i class="fa fa-cog" aria-hidden="true"></i>
+            <i class="fa fa-bell-o" aria-hidden="true"></i>
+            <img src="assets/profile.jpg" alt="profile-icon">
+            <p>Admin <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+        </div>
+
+    </div>
+
+
+
+    <div class="main">
+        <div class="programme-title">Programme</div>
+        <div class="row">
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="add text-center">
+                            <i class="fa fa-plus-square" aria-hidden="true"></i>
+                            <span>Add</span>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="del float-right text-center">
+                            <i class="fa fa-trash-o" aria-hidden="true"></i>
+                            <span>Delete</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-programme-list">
+                    <table class="table">
+                        <thead class="programme-head">
+                            <tr>
+                                <th scope="col">S/N</th>
+                                <th scope="col">Time</th>
+                                <th scope="col">Programme-List</th>
+                                <th scope="col">Progress</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><i class="fa fa-circle-o done" aria-hidden="true"></i></th>
+                                <td class="td">9:00am</td>
+                                <td class="td">Introduction</td>
+                                <td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><i class="fa fa-circle-o done" aria-hidden="true"></i></th>
+                                <td class="td">10:00am</td>
+                                <td class="td">Opening Prayer from the chairman</td>
+                                <td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><i class="fa fa-circle-o-notch" aria-hidden="true"></i></th>
+                                <td class="td">11:00am</td>
+                                <td class="td">Short lecture by the vice-president</td>
+                                <td><i class="fa fa-times-circle-o" aria-hidden="true"></i></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><i class="fa fa-circle-o loading" aria-hidden="true"></i></th>
+                                <td class="td">12:00am</td>
+                                <td class="td">Tea Break</td>
+                                <td><i class="fa fa-times-circle-o" aria-hidden="true"></i></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><i class="fa fa-circle-o loading" aria-hidden="true"></i></th>
+                                <td class="td">1:00pm</td>
+                                <td class="td">Speech from the president</td>
+                                <td><i class="fa fa-times-circle-o" aria-hidden="true"></i></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><i class="fa fa-circle-o loading" aria-hidden="true"></i></th>
+                                <td class="td">2:00pm</td>
+                                <td class="td">Game Time</td>
+                                <td><i class="fa fa-times-circle-o" aria-hidden="true"></i></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><i class="fa fa-circle-o loading" aria-hidden="true"></i></th>
+                                <td class="td">3:00pm</td>
+                                <td class="td">Votes of Thanks</td>
+                                <td><i class="fa fa-times-circle-o" aria-hidden="true"></i></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><i class="fa fa-circle-o loading" aria-hidden="true"></i></th>
+                                <td class="td">4:00pm</td>
+                                <td class="td">Dinner</td>
+                                <td><i class="fa fa-times-circle-o" aria-hidden="true"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 calender-sm">
+                <div class="todays">Event-Day</div>
+                <div class="month mb-4 shadow">
+                    <ul>
+                        <li>August-16-2023</li>
+                    </ul>
+                    <div class="countdown pt-2">
+                        <h6>Countdown</h6>
+                        <p>5Days 7hrs 24min 00</p>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-8">
+                        <div class="guest-list">Guest List</div>
+                    </div>
+                    <div class="col-4 my-auto">
+                        <div class="d-flex view-all justify-content-end">View All</div>
+                    </div>
+                </div>
+
+                <div class="guest-div mb-4">
+                    <div class="row shadow">
+                        <div class="col-4 guests">
+                            <img class="guest-img" src="assets/profile 1.png" alt="guest-img">
+                        </div>
+
+                        <div class="col-4 my-auto guests">
+                            <h6 class="guest-name">John Doe</h6>
+                        </div>
+
+                        <div class="col-4 my-auto guests">
+                            <h6 class="guest-invite">Invited</h6>
+                        </div>
+                    </div>
+
+                    <div class="row shadow">
+                        <div class="col-4 guests">
+                            <img class="guest-img" src="assets/profile 1.png" alt="guest-img">
+                        </div>
+
+                        <div class="col-4 my-auto guests">
+                            <h6 class="guest-name">John Doe</h6>
+                        </div>
+
+                        <div class="col-4 my-auto guests">
+                            <h6 class="guest-invite">Invited</h6>
+                        </div>
+                    </div>
+
+                    <div class="row shadow">
+                        <div class="col-4 guests">
+                            <img class="guest-img" src="assets/profile 1.png" alt="guest-img">
+                        </div>
+
+                        <div class="col-4 my-auto guests">
+                            <h6 class="guest-name">John Doe</h6>
+                        </div>
+
+                        <div class="col-4 my-auto guests">
+                            <h6 class="guest-pending">Pending</h6>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-8">
+                        <div class="programme">Programme</div>
+                    </div>
+                    <div class="col-4 my-auto">
+                        <div class="d-flex view-all justify-content-end">View All</div>
+                    </div>
+                </div>
+
+                <div class="programme-list shadow">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="list">Arrival</div>
+                        </div>
+                        <div class="col-4 my-auto mr-auto">
+                            <div class="time">9:00AM</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="programme-list shadow">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="list">Introduction</div>
+                        </div>
+                        <div class="col-4 my-auto mr-auto">
+                            <div class="time">10:00AM</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="programme-list shadow">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="list">Opening Speech</div>
+                        </div>
+                        <div class="col-4 my-auto mr-auto">
+                            <div class="time">11:30AM</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    
 
-    
 </body>
-    <script src="js/jquery.slim.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/wow.min.js"></script>
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/wow.min.js"></script>
+
 </html>

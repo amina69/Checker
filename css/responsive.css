@@ -2,17 +2,12 @@
     .logo h1{
         font-size: 25px;
     }
-
-    .loginGoogle{
-        width: 80%;
-        font-size: 13px;
-    }
     
     .login-google{
         margin: 20px 0;
     }
 
-    .login-btn button, .signUp-btn button, .addForm-btn button, .search-btn button, .start-btn button, .loginGoogle,
+    .login-btn button, .signUp-btn button, .addForm-btn button, .search-btn button, .start-btn button,
     .start-btn button, .start-btn button, .add-btn button, .end-btn button{
         width: 100%;
     }
@@ -36,6 +31,10 @@
 
     .body{
         background-color: white;
+    }
+
+    .shadow{
+        box-shadow: none;
     }
 
 }
@@ -87,7 +86,12 @@
     }
 
     .register-link{
-        margin-top: 30px;
+        margin-top: 10px;
+    }
+
+    .register-link, .login-link{
+        font-size: 14px;
+        padding-bottom: 15px;
     }
 
     .login-link{
@@ -95,11 +99,16 @@
     }
 
     .login-btn button, .signUp-btn button, .addForm-btn button, .search-btn button{
-        margin: 10px 0;
+        margin: 5px 0;
     }
 
     .login-google{
-        margin: 10px 0;
+        margin: 5px 0;
+    }
+
+    .login-google i{
+        font-size: 25px;
+        padding: 5px;
     }
 
     .forget{
@@ -155,7 +164,7 @@
 
     .search-btn button, .start-btn button,
     .start-btn button, .add-btn button, .end-btn button{
-        width: 90%;
+        width: 100%;
     }
 
     .values{
@@ -213,6 +222,14 @@
     .profile-box {
         border: none;
     } */
+    .shadow{
+        box-shadow: none;
+    }
+
+    .login-with{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
    
 }
 
@@ -240,7 +257,7 @@
     }
 
     .login-form, .signUp-form-side, .addFiles-form-side{
-        padding: 20px 30px;
+        padding: 20px;
     }
 
     .or-img img{
@@ -275,7 +292,7 @@
     }
 
     .start-btn button, .add-btn button, .end-btn button, .search-btn button{
-        width: 80%;
+        width: 100%;
     }
 
     /* profile */
@@ -334,6 +351,10 @@
 
     .logo img{
         width: 50px;
+    }
+
+    .input-icons i {
+        right: 20px
     }
 
     /* Homepage */
