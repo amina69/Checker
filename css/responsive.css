@@ -3,38 +3,41 @@
         font-size: 25px;
     }
     
-    .login-google{
-        margin: 20px 0;
-    }
-
-    .login-btn button, .signUp-btn button, .addForm-btn button, .search-btn button, .start-btn button,
-    .start-btn button, .start-btn button, .add-btn button, .end-btn button{
+    .login-btn button, .signUp-btn button{
         width: 100%;
-    }
-
-    .register-link, .login-link{
-        font-size: 13px;
-    }
-
-    .navbar-brand img{
-        width: 50%;
-    }
-
-    .programme-img-side{
-        margin-top: 20px;
-        padding: 10px;
-    }
-
-    .input-topSpace{
-        margin-top: 80px;
     }
 
     .body{
         background-color: white;
     }
 
-    .shadow{
+    .shadoww{
         box-shadow: none;
+    }
+
+    .login-form, .signUp-form-side{
+        border-left: none;
+    }
+
+    .login-google i{
+        margin: 0;
+    }
+
+    .register-link, .login-link {
+        font-size: 10px;
+        padding-bottom: 0;
+    }
+    .login-img img, .signUp-img-side img{
+        width: 200px;
+    }
+
+    /* Dashboard */
+    .sidenav{
+        display: none;
+    }
+
+    .calender, .calender-sm{
+        display: none;
     }
 
 }
@@ -53,7 +56,7 @@
         width: 50px;
     }
 
-    /*Login / signup / Add-Guest*/
+    /* Login / signup */
     .body{
         background-color: white;
     }
@@ -63,16 +66,32 @@
         margin: auto;
     }
 
-    .login-form .p1, .signUp-form-side .p1, .addFiles-form-side .p1{
+    .shadoww{
+        box-shadow: none;
+    }
+
+    .register-link, .login-link {
+        padding-bottom: 0;
+    }
+
+    .login-form, .signUp-form-side{
+        border-left: none;
+    }
+
+    .login-form .p1, .signUp-form-side .p1{
         font-size: 18px;
         margin-bottom: 20px;
     }
 
-    .login img, .signUp-img-side img, .addFiles-img-side img, .programme-img-side img{
+    .login img, .signUp-img-side img{
         width: 260px;
     }
 
-    .login-form, .signUp-form-side, .addFiles-form-side{
+    .signUp-img-side img{
+        margin-bottom: 10px;
+    }
+
+    .login-form, .signUp-form-side{
         padding: 15px 30px;
     }
 
@@ -80,7 +99,11 @@
         width: 80px;
     }
 
-    .login-img h4, .signUp-img-side h4, .addFiles-img-side h4, .programme-img-side h4{
+    .or-img span, .login-with{
+        font-size: 10px;
+    }
+
+    .login-img h4, .signUp-img-side h4{
         font-size: 12px;
         margin-top: 0px;
     }
@@ -89,26 +112,12 @@
         margin-top: 10px;
     }
 
-    .register-link, .login-link{
-        font-size: 14px;
-        padding-bottom: 15px;
-    }
-
     .login-link{
         margin-top: 10px;
     }
 
-    .login-btn button, .signUp-btn button, .addForm-btn button, .search-btn button{
+    .login-btn button, .signUp-btn button{
         margin: 5px 0;
-    }
-
-    .login-google{
-        margin: 5px 0;
-    }
-
-    .login-google i{
-        font-size: 25px;
-        padding: 5px;
     }
 
     .forget{
@@ -119,116 +128,121 @@
         right: 30px
     }
 
-    /*Homepage*/
-
-    .nav-item .navbar-link, .nav-link {
-        margin: 0;
-        color: #2c2c2c;
-        width: auto;
-        padding: 20px 0 0 0;
-        font-size: 15px;
-        text-align: center;
+    .login-google i{
+        font-size: 32px;
+        padding: 8px;
+        margin: 5px;
     }
-    
-    .nav-item a{
+
+    /* Dashboard */
+
+    .navbar{
+        background-color: #ffffff;
+        padding: 20px 10px;
+    }
+
+    .navbar button, .nav-2{
         display: block;
     }
 
-    .navbar-nav{
-        align-items: flex-start;
-        float: none;
+    .sm-screen-nav-2{
+        position: absolute;
+        right: 0;
+        top:0
+    }
+
+    .sm-screen-cal{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    .sidenav{
+        bottom: 0;
+        height: 88%;
+    }
+
+    .main {
+        margin-left: 0;
+        padding: 0;
+        margin: 10px;
+    }
+
+    .main-2, .main-3{
         margin: 0;
-        background-color: white;
-        padding-bottom: 10px;
-    }
-       
-    .navbar-nav li button{
-        background-color: white;
-        padding: 20px 0 0 0;
-        border-radius: 0;
-        margin: auto;
-    }
-    
-    .navbar-nav .nav-item button{
-        font-weight: 400;
-        font-size: 15px;
+        padding: 0
     }
 
-    .navbar-brand img{
-        width: 50%;
+    /* .calender, .calender-sm{ 
+        
+    }*/
+
+    .actions-box div{
+        font-size: 12px;
     }
 
-    .search-form-side, .programme-text-side{
-        padding: 10px 25px;
+    .actions-box, .service-box {
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
     }
 
-    .search-btn button, .start-btn button,
-    .start-btn button, .add-btn button, .end-btn button{
-        width: 100%;
+    .actions-box i {
+        font-size: 25px;
+        margin-bottom: 10px;
+        margin-top: 25px;
     }
 
-    .values{
-        padding: 15px;
+    .welcome .text {
+        font-size: 12px;
+        margin-top: 15px;
     }
 
-    .value-box, .profile-box {
-        margin-left: 0;
-        padding: 10px 0px;
+    .welcome{
+        margin: auto
     }
 
-    /* Profile */
-
-    .profile-img{
-        margin-top: 0;
-        margin-left: 0;
-        text-align: center;
+    .welcome-img{
+        margin: auto
     }
 
-    .profile{
-        padding: 40px 30px;
-    }
-
-    .scrollInvite-img-side img{
+    .welcome .img img {
         width: 150px;
     }
 
+    .message{
+        font-size: 11px;
+    }
+
+    .topnav{
+        text-align: center
+    }
+
+    .topnav input {
+        width: 280px;
+        padding: 7px;
+    }
+
+    .topnav button{
+        width: 50px;
+        padding: 7px;
+    }
+
+    .intro{
+        height: 150px;
+    }
+
+    .margin-top{
+        margin-top: 30px;
+    }
+
+
+    
     /* Programme */
     
-    .stage{
-        font-size: 13px;
-        margin: auto;
-    }
 
-    .programme-list{
-        margin: auto;
-    }
-
-    .programme-img-side, .login img, .signUp-img-side, .addFiles-img-side, .programme-img-side{
+    .login img, .signUp-img-side{
         padding: 0px;
-    }
-   
-    /* horizontal scroll 
-
-    .scrolling-wrapper {
-        overflow-x: scroll;
-        overflow-y: hidden;
-        white-space: nowrap;
-    }
-
-    .card {
-        display: inline-block;
-    }
-
-    .profile-box {
-        border: none;
-    } */
-    .shadow{
-        box-shadow: none;
-    }
-
-    .login-with{
-        font-size: 12px;
-        margin-bottom: 5px;
     }
    
 }
@@ -252,11 +266,11 @@
         margin: 120px auto;
     }
 
-    .login img, .signUp-img-side img, .addFiles-img-side img, .programme-img-side img{
+    .login img, .signUp-img-side img{
         width: 350px;
     }
 
-    .login-form, .signUp-form-side, .addFiles-form-side{
+    .login-form, .signUp-form-side{
         padding: 20px;
     }
 
@@ -268,83 +282,12 @@
         right: 20px
     }
 
-    /* Homepage */
-
-    .search-form-side, .programme-text-side{
-        padding: 10px 20px;
-
     }
 
-    .scrollInvite-img-side img{
-        width: 150px;
-    }
+    /* Dashboard */
 
-    .programme-img-side{
-        padding: 10px;
-    }
+    @media (max-width: 1100px) and (min-width: 992px) {
 
-    .programme-text-side{
-        padding: 5;
-    }
-
-    .time{
-        margin-right: auto
-    }
-
-    .start-btn button, .add-btn button, .end-btn button, .search-btn button{
-        width: 100%;
-    }
-
-    /* profile */
-
-    .profile {
-        padding: 0 20px;
-    }
-
-    .profile-side{
-        margin-top: 30px;
-    }
-
-    /* Homepage */
-
-    .nav-item .navbar-link, .nav-link {
-        margin: 0;
-        color: #2c2c2c;
-        width: auto;
-        padding: 20px 0 0 0;
-        font-size: 15px;
-        text-align: center;
-    }
-
-    .nav-item a{
-        display: block;
-    }
-
-    .navbar-nav{
-        align-items: flex-start;
-        float: none;
-        margin: 0;
-        background-color: white;
-        padding-bottom: 10px;
-    }
-       
-    .navbar-nav li button{
-        background-color: white;
-        padding: 20px 0 0 0;
-        border-radius: 0;
-        margin: auto;
-    }
-    
-    .navbar-nav .nav-item button{
-        font-weight: 400;
-        font-size: 15px;
-    }
-
-
-
-}
-
-@media (max-width: 1100px) and (min-width: 992px) {
     .login-form, .signUp-form-side, .addFiles-form-side{
         padding: 20px 30px;
     }
@@ -355,6 +298,18 @@
 
     .input-icons i {
         right: 20px
+    }
+
+    .or-img img{
+        width: 80px;
+    }
+
+    .or-img span, .login-with{
+        font-size: 10px;
+    }
+
+    .login-img img{
+        width: 380px;
     }
 
     /* Homepage */
