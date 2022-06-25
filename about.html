@@ -13,132 +13,143 @@
     <title>About</title>
 </head>
 
-<body>
+<body onload="block()">
+
     <!-- Side navigation -->
-    <div class="sidenav">
-        <div class="navbar-brand">
-            <img src="assets/logo-nav.png" alt="nav-logo">
-        </div>
 
-        <div class="link d-flex flex-row">
-            <div class="row">
-                <div class="col-2">
-                    <i class="fa fa-laptop" aria-hidden="true"></i>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+        </button>
 
-                <div class="col-2">
-                    <a href="homePage.html">Dashboard</a>
+        <div class="sidenav collapse navbar-collapse" id="navbarSupportedContent">
+
+        <div class="sidenav">
+            <div class="navbar-brand">
+                <img src="assets/logo-nav.png" alt="nav-logo">
+            </div>
+
+            <div class="link d-flex flex-row">
+                <div class="row">
+                    <div class="col-2">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="col-2">
+                        <a href="homePage.html">Dashboard</a>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="link d-flex flex-row">
-            <div class="row">
-                <div class="col-2">
-                    <i class="fa fa-th" aria-hidden="true"></i>
-                </div>
+            <div class="link d-flex flex-row">
+                <div class="row">
+                    <div class="col-2">
+                        <i class="fa fa-th" aria-hidden="true"></i>
+                    </div>
 
-                <div class="col-2">
-                    <a href="events.html">Events</a>
-                </div>
-            </div>
-        </div>
-        <div class="link d-flex flex-row">
-            <div class="row">
-                <div class="col-2">
-                    <i class="fa fa-user" aria-hidden="true"></i>
-                </div>
-
-                <div class="col-2">
-                    <a href="profile.html">Profile</a>
+                    <div class="col-2">
+                        <a href="events.html">Events</a>
+                    </div>
                 </div>
             </div>
-        </div>
+            <div class="link d-flex flex-row">
+                <div class="row">
+                    <div class="col-2">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </div>
 
-        <div class="link d-flex flex-row">
-            <div class="row">
-                <div class="col-2">
-                    <i class="fa fa-list-ol" aria-hidden="true"></i>
-                </div>
-
-                <div class="col-2">
-                    <a href="programme.html">Programme</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="link d-flex flex-row">
-            <div class="row">
-                <div class="col-2">
-                    <i class="fa fa-smile-o" aria-hidden="true"></i>
-                </div>
-
-                <div class="col-2">
-                    <a href="services.html">Services</a>
+                    <div class="col-2">
+                        <a href="profile.html">Profile</a>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="link d-flex flex-row">
-            <div class="row">
-                <div class="col-2">
-                    <i class="fa fa-question-circle" aria-hidden="true"></i>
-                </div>
+            <div class="link d-flex flex-row">
+                <div class="row">
+                    <div class="col-2">
+                        <i class="fa fa-list-ol" aria-hidden="true"></i>
+                    </div>
 
-                <div class="col-2">
-                    <a href="about.html">About</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="link d-flex flex-row">
-            <div class="row">
-                <div class="col-2">
-                    <i class="fa fa-trash-o" aria-hidden="true"></i>
-                </div>
-
-                <div class="col-2">
-                    <a href="#">Discard</a>
+                    <div class="col-2">
+                        <a href="programme.html">Programme</a>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="link d-flex flex-row">
-            <div class="row">
-                <div class="col-2">
-                    <i class="fa fa-sign-out" aria-hidden="true"></i>
-                </div>
+            <div class="link d-flex flex-row">
+                <div class="row">
+                    <div class="col-2">
+                        <i class="fa fa-smile-o" aria-hidden="true"></i>
+                    </div>
 
-                <div class="col-2">
-                    <a href="login.html">Logout</a>
+                    <div class="col-2">
+                        <a href="services.html">Services</a>
+                    </div>
                 </div>
             </div>
+
+            <div class="link d-flex flex-row">
+                <div class="row">
+                    <div class="col-2">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="col-2">
+                        <a href="about.html">About</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="link d-flex flex-row">
+                <div class="row">
+                    <div class="col-2">
+                        <i class="fa fa-trash-o" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="col-2">
+                        <a href="#">Discard</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="link d-flex flex-row">
+                <div class="row">
+                    <div class="col-2">
+                        <i class="fa fa-sign-out" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="col-2">
+                        <a href="login.html">Logout</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="footer-nav d-flex flex-row">
+                <i class="fa fa-cog" aria-hidden="true"></i>
+                <i class="fa fa-bell-o" aria-hidden="true"></i>
+                <img src="assets/profile.jpg" alt="profile-icon">
+                <p>Admin <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+            </div>
         </div>
-
-
-        <div class="footer-nav d-flex flex-row">
-            <i class="fa fa-cog" aria-hidden="true"></i>
-            <i class="fa fa-bell-o" aria-hidden="true"></i>
-            <img src="assets/profile.jpg" alt="profile-icon">
-            <p>Admin <i class="fa fa-angle-down" aria-hidden="true"></i></p>
         </div>
-
-    </div>
+    </nav>
 
 
 
     <div class="main">
         <div class="about-title">About Us</div>
-        <div class="row">
+        <div class="row main-2">
             <div class="col-md-8">
                 <div class="row about-box box-1 space mb-4">
                     <div class="col-md-5">
                         <img src="assets/about-us.jpg" alt="about-us">
                     </div>
 
-                    <div class="col-md-7 p-2">
+                    <div class="col-md-7 about-col">
                         <div class="about-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab velit ducimus praesentium
+                            <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab velit ducimus praesentium
                                 blanditiis laborum accusamus optio vel, quidem commodi, modi aspernatur numquam dolorem
                                 necessitatibus quaerat? Magni obcaecati illo debitis tempore.</p>
 
@@ -149,14 +160,15 @@
                     </div>
                 </div>
 
-                <div class="about-title">Contact Us</div>
+                <div class="contact-title">Contact Us</div>
                 <div class="row about-box box-2 space">
                     <div class="col-md-7">
                         <div class="contact-text">
                             <p>We are open to complaints or you might have some input on how to make the Checker site
                                 better.</p>
-                            <p>You can reach us by clicking on any of the social media icon below or you can send us a direct message
-                                in the <span>Send Us A Message</span> section.
+                            <p>You can reach us by clicking on any of the social media icon below or you can send us a
+                                direct message
+                                in the <span><a href="#link"> Send Us A Message</a></span> section.
                             </p>
                         </div>
 
@@ -170,38 +182,48 @@
                         </div>
                     </div>
 
-                    <div class="col-md-5">
-                        
-                    </div>
                 </div>
             </div>
 
-            <div class="col-md-4 calender padding-none">
-                <div class="todays wow animate__animated animate__delay-1s
+
+
+
+
+            <nav class="navbar navbar-expand-lg nav-2 ml-auto sm-screen-nav-2">
+                <button class="navbar-toggler button-2" type="button" data-toggle="collapse" data-target="#nav-menu"
+                    aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+                </button>
+            </nav>
+
+
+            <div class="col-md-4 calender padding-none sm-screen-cal">
+
+                <div class="collapse navbar-collapse js-navbar" id="nav-menu">
+
+                    <div class="todays padd wow animate__animated animate__delay-1s
                 animate__flash animate__repeat-3 animate__slower">Send Us A Message</div>
 
-                <div class="message">
+                    <div class="message padd">
                         <input type="text" name="name" placeholder="First Name">
                         <input type="text" name="name" placeholder="Last Name">
                         <input type="email" name="email" placeholder="Mail">
                         <input type="number" name="phone" placeholder="Phone">
                         <textarea type="textarea" name="form" placeholder="Message"></textarea>
-                </div>
+                    </div>
 
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="add text-center my-3">
-                                    <span>Submit</span>
-                                </div>
+                    <div class="row main-2">
+                        <div class="col-12">
+                            <div class="add text-center my-3">
+                                <span>Submit</span>
                             </div>
-
                         </div>
+
                     </div>
                 </div>
             </div>
-
-
         </div>
+    </div>
     </div>
     </div>
 

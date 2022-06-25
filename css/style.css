@@ -306,7 +306,7 @@ body{
   }
 
   .actions-title, .welcome-title, .todays, .guest-list, .programme, .programme-title, .profile-title, 
-  .add-guest-title, .create-new-title, .service-title, .about-title{
+  .add-guest-title, .create-new-title, .service-title, .about-title, .contact-title{
       margin-bottom: 13px;
       font-weight: 600;
       font-size: 14px;
@@ -435,7 +435,7 @@ body{
       font-size: 13px;
   }
 
-  .topnav button{
+  .topnav button, .topnav .close-sm{
       padding: 6px;
       width: 40px;
       border: 1px solid #cfb6ee;
@@ -863,11 +863,24 @@ tbody tr:hover{
 .service-box div{
     font-size: 13px;
     font-weight: 600;
+    padding: 0 25px;
+    text-align: left;
 }
 
 .service-box p{
     font-size: 13px;
+    padding: 0 25px;
+    text-align: left;
 }
+
+.second-service{
+    margin-top: 8px;
+}
+
+.second-service-i{
+    margin-top: 40px;
+}
+
 .one-s{
     background-color: #ecffe9;
 }
@@ -973,6 +986,10 @@ tbody tr:hover{
 
 .about-text, .contact-text{
     font-size: 13px;
+}
+
+.about-col .about-text p{
+    padding: 15px;
 }
 
 .contact-text span{

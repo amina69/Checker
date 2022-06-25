@@ -324,7 +324,7 @@
         font-size: 12px;
     }
 
-    .actions-box, .service-box {
+    .actions-box{
         height: 100px;
         width: 100px;
         border-radius: 10px;
@@ -379,15 +379,140 @@
         margin-top: 30px;
     }
 
-
-    
-    /* Programme */
-    
-
     .login img, .signUp-img-side{
         padding: 0px;
     }
-   
+
+    /* Modal */
+
+    .position{
+        padding-bottom: 0;
+        font-size: 11px;
+    }
+
+    .content-card img {
+        width: 120px;
+    }
+
+    .result-row-sm{
+        margin-bottom: 10px;
+    }
+
+    .second {
+        margin-top: 10px;
+    }
+
+    .back-card{
+        width: 100%;
+    }
+
+    .modal-title{
+        font-size: 13px;
+    }
+
+    .card-title {
+        font-size: 13px;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+    
+    .topnav .close-sm{
+        width: 60px;
+    }
+
+    nav button{
+        outline: none;
+        border: none;
+        background-color: white;
+    }
+
+    .fa-bars, .fa-info-circle{
+        font-size: 30px;
+    }
+
+    .fa-info-circle{
+        font-size: 25px;
+    }
+
+    /* Profile */
+
+    .main-profile {
+       padding: 15px 0;
+    }
+
+    .info-1 h5 {
+        font-size: 13px;
+    }
+
+    .info-1 p {
+        font-size: 13px;
+    }
+
+    /* Programme */
+
+    .table thead th {
+        font-size: 11px;
+    }
+
+    /* Services */
+
+    .aim {
+        margin: 20% 0;
+    }
+
+    .service-box{
+        height: auto;
+        width: 100px;
+        border-radius: 10px;
+        padding: none;
+    }
+
+    .service-box div, .service-box p{
+        padding: 0 2px;
+        font-size: 11px;
+        text-align: center
+    }
+
+    .service-box i{
+        font-size: 50px;
+    }
+
+    .second-service{
+        margin-top: 13px;
+    }
+
+    /* About */
+
+    .message input {
+        padding: 10px;
+    }
+
+    .about-box div img {
+        height: 150px;
+    }
+
+    .padding-none{
+        padding: 0;
+    }
+
+    .about-text, .contact-text{
+        font-size: 11px;
+    }
+
+    .about-col .about-text p{
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .contact-title {
+        padding-top: 10px;
+    }
+
+    .box-2{
+        height: 0;
+    }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {

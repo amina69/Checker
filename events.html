@@ -15,126 +15,138 @@
     <title>Events</title>
 </head>
 
-<body>
+<body onload="block()">
+
     <!-- Side navigation -->
-    <div class="sidenav">
-        <div class="navbar-brand">
-            <img src="assets/logo-nav.png" alt="nav-logo">
-        </div>
 
-        <div class="link d-flex flex-row">
-            <div class="row">
-                <div class="col-2">
-                    <i class="fa fa-laptop" aria-hidden="true"></i>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+        </button>
+
+        <div class="sidenav collapse navbar-collapse" id="navbarSupportedContent">
+
+            <div class="sidenav">
+                <div class="navbar-brand">
+                    <img src="assets/logo-nav.png" alt="nav-logo">
                 </div>
 
-                <div class="col-2">
-                    <a href="homePage.html">Dashboard</a>
+                <div class="link d-flex flex-row">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa fa-laptop" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="col-2">
+                            <a href="homePage.html">Dashboard</a>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="link d-flex flex-row">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa fa-th" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="col-2">
+                            <a href="events.html">Events</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="link d-flex flex-row">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="col-2">
+                            <a href="profile.html">Profile</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="link d-flex flex-row">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa fa-list-ol" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="col-2">
+                            <a href="programme.html">Programme</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="link d-flex flex-row">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa fa-smile-o" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="col-2">
+                            <a href="services.html">Services</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="link d-flex flex-row">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa fa-question-circle" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="col-2">
+                            <a href="about.html">About</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="link d-flex flex-row">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa fa-trash-o" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="col-2">
+                            <a href="#">Discard</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="link d-flex flex-row">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa fa-sign-out" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="col-2">
+                            <a href="login.html">Logout</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="footer-nav d-flex flex-row">
+                    <i class="fa fa-cog" aria-hidden="true"></i>
+                    <i class="fa fa-bell-o" aria-hidden="true"></i>
+                    <img src="assets/profile.jpg" alt="profile-icon">
+                    <p>Admin <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+                </div>
+
             </div>
         </div>
-
-        <div class="link d-flex flex-row">
-            <div class="row">
-                <div class="col-2">
-                    <i class="fa fa-th" aria-hidden="true"></i>
-                </div>
-
-                <div class="col-2">
-                    <a href="events.html">Events</a>
-                </div>
-            </div>
         </div>
-
-        <div class="link d-flex flex-row">
-            <div class="row">
-                <div class="col-2">
-                    <i class="fa fa-user" aria-hidden="true"></i>
-                </div>
-
-                <div class="col-2">
-                    <a href="profile.html">Profile</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="link d-flex flex-row">
-            <div class="row">
-                <div class="col-2">
-                    <i class="fa fa-list-ol" aria-hidden="true"></i>
-                </div>
-
-                <div class="col-2">
-                    <a href="programme.html">Programme</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="link d-flex flex-row">
-            <div class="row">
-                <div class="col-2">
-                    <i class="fa fa-smile-o" aria-hidden="true"></i>
-                </div>
-
-                <div class="col-2">
-                    <a href="services.html">Services</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="link d-flex flex-row">
-            <div class="row">
-                <div class="col-2">
-                    <i class="fa fa-question-circle" aria-hidden="true"></i>
-                </div>
-
-                <div class="col-2">
-                    <a href="about.html">About</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="link d-flex flex-row">
-            <div class="row">
-                <div class="col-2">
-                    <i class="fa fa-trash-o" aria-hidden="true"></i>
-                </div>
-
-                <div class="col-2">
-                    <a href="#">Discard</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="link d-flex flex-row">
-            <div class="row">
-                <div class="col-2">
-                    <i class="fa fa-sign-out" aria-hidden="true"></i>
-                </div>
-
-                <div class="col-2">
-                    <a href="login.html">Logout</a>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="footer-nav d-flex flex-row">
-            <i class="fa fa-cog" aria-hidden="true"></i>
-            <i class="fa fa-bell-o" aria-hidden="true"></i>
-            <img src="assets/profile.jpg" alt="profile-icon">
-            <p>Admin <i class="fa fa-angle-down" aria-hidden="true"></i></p>
-        </div>
-
-    </div>
+    </nav>
 
     <div class="main">
-        <div class="row">
-            <div class="col-md-8">
-                <div class="create-new-title">
+            <div class="create-new-title">
                     Events
                 </div>
-
+        <div class="row main-2">
+            <div class="col-md-8">
                 <div class="row">
 
                     <div class="col-12">
@@ -160,87 +172,104 @@
 
             </div>
 
-            <div class="col-md-4 calender">
-                <div class="todays">Event-Day</div>
-                <div class="month mb-4 shadoww wow animate__animated animate__pulse animate__repeat-3 animate__delay-1s">
-                    <ul>
-                        <li>August-16-2023</li>
-                    </ul>
-                    <div class="countdown pt-2">
-                        <h6>Countdown</h6>
-                        <p>5Days 7hrs 24min 00</p>
+
+
+
+            <nav class="navbar navbar-expand-lg nav-2 ml-auto sm-screen-nav-2">
+                <button class="navbar-toggler button-2" type="button" data-toggle="collapse" data-target="#nav-menu"
+                    aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+                </button>
+            </nav>
+
+
+            <div class="col-md-4 calender sm-screen-cal">
+
+                <div class="collapse navbar-collapse js-navbar" id="nav-menu">
+
+                    <div class="todays">Event-Day</div>
+                    <div
+                        class="month mb-4 shadoww shadow wow animate__animated animate__pulse animate__repeat-3 animate__delay-1s">
+                        <ul>
+                            <li>August-16-2023</li>
+                        </ul>
+                        <div class="countdown pt-2">
+                            <h6>Countdown</h6>
+                            <p>5Days 7hrs 24min 00</p>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="guest-list">Active Durations</div>
+                        </div>
+                        <div class="col-4 my-auto">
+                            <div class="d-flex view-all justify-content-end">View All</div>
+                        </div>
+                    </div>
+
+                    <div class="e-month mb-3 shadoww shadow">
+                        <div class="d-flex justify-content-between e-duration">
+                            <p>Event</p>
+                            <p>Tajmi's Wedding</p>
+                        </div>
+                        <div class="d-flex justify-content-between e-duration">
+                            <p>Event Date</p>
+                            <p class="date">August-12-2023</p>
+                        </div>
+                        <div class="d-flex justify-content-between e-duration">
+                            <p>Active</p>
+                            <p class="active">2days Ago</p>
+                        </div>
+                        <div class="d-flex justify-content-between e-duration">
+                            <p class="count">Coundown</p>
+                            <p>3days 12hrs 24min 56</p>
+                        </div>
+                    </div>
+
+                    <div class="e-month mb-3 shadoww shadow">
+                        <div class="d-flex justify-content-between e-duration">
+                            <p>Event</p>
+                            <p>Florida Meeting</p>
+                        </div>
+                        <div class="d-flex justify-content-between e-duration">
+                            <p>Event Date</p>
+                            <p class="date">August-16-2023</p>
+                        </div>
+                        <div class="d-flex justify-content-between e-duration">
+                            <p>Active</p>
+                            <p class="active">Now</p>
+                        </div>
+                        <div class="d-flex justify-content-between e-duration">
+                            <p class="count">Coundown</p>
+                            <p>5days 7hrs 24min 00</p>
+                        </div>
+                    </div>
+
+                    <div class="e-month mb-3 shadoww shadow">
+                        <div class="d-flex justify-content-between e-duration">
+                            <p>Event</p>
+                            <p>Daytime Party</p>
+                        </div>
+                        <div class="d-flex justify-content-between e-duration">
+                            <p>Event Date</p>
+                            <p class="date">December-25-2023</p>
+                        </div>
+                        <div class="d-flex justify-content-between e-duration">
+                            <p>Last Active</p>
+                            <p class="active">2weeks Ago</p>
+                        </div>
+                        <div class="d-flex justify-content-between e-duration">
+                            <p class="count">Coundown</p>
+                            <p>15wks 2days 12hrs 24min 56</p>
+                        </div>
                     </div>
                 </div>
-
-
-                <div class="row">
-                    <div class="col-8">
-                        <div class="guest-list">Active Durations</div>
-                    </div>
-                    <div class="col-4 my-auto">
-                        <div class="d-flex view-all justify-content-end">View All</div>
-                    </div>
-                </div>
-
-                <div class="e-month mb-3 shadoww">
-                    <div class="d-flex justify-content-between e-duration">
-                        <p>Event</p>
-                        <p>Tajmi's Wedding</p>
-                    </div>
-                    <div class="d-flex justify-content-between e-duration">
-                        <p>Event Date</p>
-                        <p class="date">August-12-2023</p>
-                    </div>
-                    <div class="d-flex justify-content-between e-duration">
-                        <p>Active</p>
-                        <p class="active">2days Ago</p>
-                    </div>
-                    <div class="d-flex justify-content-between e-duration">
-                        <p class="count">Coundown</p>
-                        <p>3days 12hrs 24min 56</p>
-                    </div>
-                </div>
-
-                <div class="e-month mb-3 shadoww">
-                    <div class="d-flex justify-content-between e-duration">
-                        <p>Event</p>
-                        <p>Florida Meeting</p>
-                    </div>
-                    <div class="d-flex justify-content-between e-duration">
-                        <p>Event Date</p>
-                        <p class="date">August-16-2023</p>
-                    </div>
-                    <div class="d-flex justify-content-between e-duration">
-                        <p>Active</p>
-                        <p class="active">Now</p>
-                    </div>
-                    <div class="d-flex justify-content-between e-duration">
-                        <p class="count">Coundown</p>
-                        <p>5days 7hrs 24min 00</p>
-                    </div>
-                </div>
-
-                <div class="e-month mb-3 shadoww">
-                    <div class="d-flex justify-content-between e-duration">
-                        <p>Event</p>
-                        <p>Daytime Party</p>
-                    </div>
-                    <div class="d-flex justify-content-between e-duration">
-                        <p>Event Date</p>
-                        <p class="date">December-25-2023</p>
-                    </div>
-                    <div class="d-flex justify-content-between e-duration">
-                        <p>Last Active</p>
-                        <p class="active">2weeks Ago</p>
-                    </div>
-                    <div class="d-flex justify-content-between e-duration">
-                        <p class="count">Coundown</p>
-                        <p>15wks 2days 12hrs 24min 56</p>
-                    </div>
-                </div>
-
             </div>
+
         </div>
+    </div>
     </div>
 
 
