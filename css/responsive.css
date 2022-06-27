@@ -236,6 +236,12 @@
     .main-add{
         padding: 10px;
     }
+
+    /* Send Invites */
+
+    .invite-padd {
+        margin: 0px;
+    }
 }
 
 
