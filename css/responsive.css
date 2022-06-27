@@ -2,6 +2,14 @@
     .logo h1{
         font-size: 25px;
     }
+
+    .form-input input {
+        width: 100%;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #817E7E;
+        margin-bottom: 40px;
+    }
     
     .login-btn button, .signUp-btn button{
         width: 100%;
@@ -25,6 +33,10 @@
         width: 200px;
     }
 
+    .login-sm, .signup-sm{
+        margin-bottom: 25px;
+    }
+
     .box-container{
         border: none;
         margin: auto;
@@ -41,6 +53,10 @@
     .login-form .p1, .signUp-form-side .p1{
         font-size: 18px;
         margin-bottom: 20px;
+    }
+
+    .login img, .signUp-img-side img{
+        width: 260px;
     }
 
     .signUp-img-side img{
@@ -68,6 +84,11 @@
         margin-top: 10px;
     }
 
+    .login-btn button, .signUp-btn button{
+        margin: 5px 0;
+        padding: 8px;
+    }
+
     .forget{
         margin-bottom: 20px
     }
@@ -78,8 +99,7 @@
 
     .login-google i{
         font-size: 32px;
-        padding: 8px;
-        margin: 5px;
+        margin: 10px;
     }
 
     /* Dashboard */
