@@ -19,10 +19,6 @@
         margin: 0;
     }
 
-    .register-link, .login-link {
-        font-size: 10px;
-        padding-bottom: 0;
-    }
     .login-img img, .signUp-img-side img{
         width: 200px;
     }
@@ -68,10 +64,6 @@
 
     .register-link, .login-link{
         margin-top: 10px;
-    }
-
-    .login-btn button, .signUp-btn button{
-        margin: 5px 0;
     }
 
     .forget{
@@ -261,6 +253,7 @@
 
     .login-btn button, .signUp-btn button{
         margin: 5px 0;
+        padding: 8px;
     }
 
     .forget{
@@ -494,7 +487,7 @@
     }
 
     .padding-none{
-        padding: 0;
+        padding: 10px;
     }
 
     .about-text, .contact-text{
