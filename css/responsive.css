@@ -1,10 +1,12 @@
-@media (max-width: 365px) and (min-width: 280px) {
+@media (max-width: 360px) and (min-width: 280px) {
     .logo h1{
         font-size: 25px;
     }
     
     .login-btn button, .signUp-btn button{
         width: 100%;
+        margin: 5px 0;
+        padding: 8px;
     }
 
     .body{
@@ -135,7 +137,7 @@
 
     .actions-box, .service-box {
         height: 100px;
-        width: 80px;
+        width: 100px;
         border-radius: 10px;
     }
 
@@ -146,8 +148,12 @@
     }
 
     .welcome .text {
-        font-size: 10px;
+        font-size: 12px;
         margin-top: 15px;
+    }
+
+    .message{
+        font-size: 11px;
     }
 
     .welcome{
@@ -159,20 +165,16 @@
     }
 
     .welcome .img img {
-        width: 120px;
-    }
-
-    .message{
-        font-size: 10px;
-        margin-top: 10px;
+        width: 150px;
     }
 
     .topnav input {
-        width: 260px;
+        width: 83%;
+        padding: 7px;
     }
 
     .topnav button{
-        width: 40px;
+        width: 50px;
         padding: 7px;
     }
 
@@ -182,6 +184,14 @@
 
     .margin-top{
         margin-top: 30px;
+    }
+
+    .fa-bars{
+        font-size: 30px;
+    }
+
+    .fa-info-circle{
+        font-size: 25px;
     }
 
     /* Profile */
@@ -402,6 +412,10 @@
         margin-top: 15px;
     }
 
+    .message{
+        font-size: 11px;
+    }
+
     .welcome{
         margin: auto
     }
@@ -414,12 +428,8 @@
         width: 150px;
     }
 
-    .message{
-        font-size: 11px;
-    }
-
     .topnav input {
-        width: 298px;
+        width: 84%;
         padding: 7px;
     }
 
@@ -485,7 +495,7 @@
         background-color: white;
     }
 
-    .fa-bars, .fa-info-circle{
+    .fa-bars{
         font-size: 30px;
     }
 
