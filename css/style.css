@@ -444,6 +444,10 @@ body{
       color: #301452;
   }
 
+  .topnav .close-sm{
+      width: 60px;
+  }
+
 
 /* Calender */
 
@@ -535,6 +539,7 @@ body {font-family: Verdana, sans-serif;}
 .guest-invite{
     color: #32e541;
 }
+
 
 .guest-pending, .info-1 p{
     color: #c6bcd4;
@@ -819,6 +824,14 @@ tbody tr:hover{
     padding: 10px;
   }
 
+.saved-invite{
+    margin: 20px 0;
+}
+
+.saved-invite .invite-padd .pp{
+    margin: 15px 0;
+}
+
 .e-duration{
     font-size: 12px;
 }
@@ -964,6 +977,10 @@ tbody tr:hover{
 
 .box-2{
     height: 200px;
+}
+
+.about-box{
+    margin-bottom: 20px;
 }
 
 .about-box div:last-child{

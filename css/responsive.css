@@ -457,7 +457,7 @@
 
     .service-box{
         height: auto;
-        width: 100px;
+        width: 110px;
         border-radius: 10px;
         padding: none;
     }
@@ -482,6 +482,10 @@
         padding: 10px;
     }
 
+    .about-box{
+        margin-bottom: 10px;
+    }
+
     .about-box div img {
         height: 150px;
     }
@@ -499,12 +503,32 @@
         margin-bottom: 0;
     }
 
-    .contact-title {
-        padding-top: 10px;
-    }
-
     .box-2{
         height: 0;
+    }
+
+    /* Create New */
+
+    .main-add {
+        padding: 10px;
+    }
+
+    /* Send Invite */
+
+    .invite-padd {
+        margin: 0;
+    }
+
+    .saved-invite{
+        margin: 0;
+    }
+
+    .saved-invite .create-new-title{
+        margin-bottom: 10px;
+    }
+
+    .saved-invite .invite-padd .pp{
+        margin: 0
     }
 }
 
