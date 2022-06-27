@@ -298,6 +298,11 @@
         height: 88%;
     }
 
+    .sidenav2 {
+        top: 80px;
+        height: 53%;
+    }
+
     .main {
         margin-left: 0;
         padding: 0;
