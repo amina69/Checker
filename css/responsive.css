@@ -215,6 +215,41 @@
         font-size: 25px;
     }
 
+    /* Modal */
+
+    .position{
+        padding-bottom: 0;
+        font-size: 11px;
+    }
+
+    .content-card img {
+        width: 120px;
+    }
+
+    .result-row-sm{
+        margin-bottom: 10px;
+    }
+
+    .second {
+        margin-top: 10px;
+    }
+
+    .back-card{
+        width: 100%;
+    }
+
+    .modal-title{
+        font-size: 13px;
+    }
+
+    .card-title {
+        font-size: 13px;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
     /* Profile */
 
     .main-profile{
