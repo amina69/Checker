@@ -9,5 +9,21 @@ function login() {
         window.open("login.html","_self")
     }, 2000)
 }
-  
 
+let closeToggle = document.querySelector(".main");
+closeToggle.addEventListener("click", () => {
+    toggleCallapse('navbarSupportedContent', 'hide');
+});
+
+const toggleCallapse = (elemId, action = false) => {
+    let elem = document.getElementById(elemId);
+    switch (action) {
+        case 'hide':
+            $("#" + elemId).collapse('hide');
+            break;
+    
+        default:
+            $("#" + elemId).collapse('toggle');
+            break;
+    }
+}
