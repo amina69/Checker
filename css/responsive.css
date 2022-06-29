@@ -139,6 +139,7 @@
     .sidenav{
         bottom: 0;
         height: 88%;
+        width: 60%;
     }
 
     .main {
@@ -147,7 +148,7 @@
         margin: 10px;
     }
 
-    .main-2, .main-3{
+    .main-2, .main-3, .title-main{
         margin: 0;
         padding: 0
     }
@@ -156,16 +157,24 @@
         font-size: 10px;
     }
 
-    .actions-box, .service-box {
+    .actions-box{
+        height: 120px;
+        width: 30%;
+    }
+
+    .actions-2{
+        margin-top: 18px;
+    }
+
+    .service-box {
         height: 100px;
         width: 100px;
-        border-radius: 10px;
     }
 
     .actions-box i {
         font-size: 25px;
         margin-bottom: 10px;
-        margin-top: 25px;
+        margin-top: 35px;
     }
 
     .welcome .text {
@@ -275,7 +284,9 @@
 
     .service-box {
         height: auto;
-        width: 110px;
+        width: 32%;
+        border-radius: 10px;
+        padding: none;
     }
 
     .service-box div, .service-box p{
@@ -425,6 +436,7 @@
     .sidenav{
         bottom: 0;
         height: 88%;
+        width: 60%;
     }
 
     .sidenav2 {
@@ -438,7 +450,7 @@
         margin: 10px;
     }
 
-    .main-2, .main-3{
+    .main-2, .main-3, .title-main{
         margin: 0;
         padding: 0
     }
@@ -451,16 +463,19 @@
         font-size: 12px;
     }
 
-    .actions-box{
-        height: 100px;
-        width: 100px;
-        border-radius: 10px;
+    .actions-2{
+        margin-top: 13px;
     }
 
     .actions-box i {
         font-size: 25px;
-        margin-bottom: 10px;
-        margin-top: 25px;
+        margin: 35px 0 10px 0;
+    }
+
+    .actions-box{
+        height: 120px;
+        width: 31%;
+        border-radius: 10px;
     }
 
     .welcome .text {
@@ -543,6 +558,7 @@
     
     .topnav .close-sm{
         width: 60px;
+        padding: 7px;
     }
 
     nav button{
@@ -585,10 +601,9 @@
         margin: 20% 0;
     }
 
-    .service-box{
+    .service-box {
         height: auto;
-        width: 110px;
-        border-radius: 10px;
+        width: 32%;
         padding: none;
     }
 
@@ -724,6 +739,7 @@
     .sidenav{
         top: 90px;
         height: 55%;
+        width: 30%;
     }
     
     .main {
@@ -732,13 +748,13 @@
         margin: 10px;
     }
 
-    .main-2{
+    .main-2, .title-main{
         margin: 0;
         padding: 0
     }
 
-    .main-3{
-        padding: 0 10px;
+    .main-3 {
+        padding: 0 10px 0 0;
     }
 
     .fa-bars{
@@ -749,8 +765,23 @@
         display: none;
     }
 
+    .topnav input{
+        width: 90%;
+        padding: 7px;
+    }
+
+    .actions-2{
+        margin-top: 20px;
+    }
+
     .actions-box{
-        width: 150px;
+        height: 120px;
+        width: 31%;
+        border-radius: 10px;
+    }
+
+    .actions-box i {
+        margin: 25px 0 10px 0
     }
 
     .welcome .img img {
@@ -777,12 +808,69 @@
     /* Services */
 
     .service-box {
-        width: 190px;
+        height: auto;
+        width: 32%;
+        padding: none;
+    }
+
+    .service-box div, .service-box p{
+        padding: 0 10px;
+    }
+
+    .second-service-i {
+        margin-top: 30px;
     }
 
     /* About */
 
     .calender-padd{
+        padding: 10px;
+    }
+
+    /* Modal */
+
+    .position{
+        padding-bottom: 0;
+        font-size: 11px;
+    }
+
+    .content-card img {
+        width: 120px;
+    }
+
+    .result-row-sm{
+        margin-bottom: 10px;
+        margin: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .result-sm{
+        margin-left: auto;
+        padding: 0;
+    }
+
+    .second {
+        margin-top: 45px;
+    }
+
+    .back-card{
+        width: 100%;
+    }
+
+    .modal-title{
+        font-size: 13px;
+    }
+
+    .card-title {
+        font-size: 13px;
+    }
+
+    .card-text {
+        font-size: 10px;
+    }
+
+    .card-body {
         padding: 10px;
     }
 
@@ -792,10 +880,12 @@
         padding: 90px;
     }
 
+    /* Guest-list */
+
     }
 
 
-    @media (max-width: 1100px) and (min-width: 992px) {
+    @media (max-width: 1100px) and (min-width: 1000px) {
 
     .login-form, .signUp-form-side, .addFiles-form-side{
         padding: 20px 30px;
@@ -834,8 +924,23 @@
         padding: 20px;
     }
 
+    .topnav input{
+        width: 90%;
+        padding: 7px;
+    }
+
+    .actions-2{
+        margin-top: 20px;
+    }
+
     .actions-box{
-        width: 160px;
+        height: 120px;
+        width: 31%;
+        border-radius: 10px;
+    }
+
+    .actions-box i {
+        margin: 25px 0 10px 0
     }
 
     .margin-top {
@@ -851,13 +956,19 @@
     /* Services */
 
     .service-box {
-        width: 184px;
+        height: auto;
+        width: 32%;
+        padding: none;
     }
 
     /* About */
 
     .message input {
         width: 100%;
+    }
+
+    .about-box div img {
+        height: 85%;
     }
 
     /* Create New */
@@ -869,14 +980,22 @@
 
 @media (max-width: 1300px) and (min-width: 1180px) {
 
+    /* Dashboard */
     .margin-top {
         margin-top: 30px;
+    }
+
+    .topnav input{
+        width: 92%;
+        padding: 7px;
     }
 
     /* Services */
 
     .service-box {
-        width: 248px;
+        height: auto;
+        width: 32%;
+        padding: none;
     }
 
 }

@@ -247,7 +247,7 @@ body{
 
 .intro{
     border-radius: 10px;
-    height: 130px;
+    height: 140px;
     background-color: #f0f0f0;
     margin-bottom: 10px;
 }
@@ -255,7 +255,7 @@ body{
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 200px; /* Set the width of the sidebar */
+    width: 195px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     bottom: 0; /* Stay at the top */
@@ -296,6 +296,10 @@ body{
     margin-top: 10px;
   }
 
+  .main-3{
+      padding: 0 35px;
+  }
+
   .actions{
       margin-top: 20px;
       padding: 0px;
@@ -305,17 +309,17 @@ body{
       margin-top: 50px;
   }
 
-  .actions-title, .welcome-title, .todays, .guest-list, .programme, .programme-title, .profile-title, 
-  .add-guest-title, .create-new-title, .service-title, .about-title, .contact-title{
+  .actions-title, .todays, .guest-list, .programme, .service-title, .about-title, .contact-title {
       margin-bottom: 13px;
       font-weight: 600;
       font-size: 14px;
       color: #0E0B16;
     }
 
-    .add-guest-title, .programme-title, .profile-title, .create-new-title{
-        margin-bottom: 18px;
+    .title-main{
+        padding: 0 20px;
     }
+
 
     .space{
         margin: 0px;
@@ -325,10 +329,14 @@ body{
         padding-top: 15px;
     }
 
-  .actions-box, .service-box{
+  .actions-box{
       height: 140px;
-      width: 205px;
+      width: 30%;
       border-radius: 10px;
+  }
+
+  .actions-2{
+      margin-top: 35px;
   }
 
   .actions-box i{
@@ -401,7 +409,7 @@ body{
 }
 
 .welcome .img img{
-    width: 170px;
+    width: 190px;
 }
 
 .welcome .text{
@@ -421,11 +429,11 @@ body{
   /* Style the search box inside the navigation bar */
   .topnav input{
     border: none;
-    width: 350px;
+    width: 93%;
     background-color: white;
     border: 1px solid #cfcfcf;
     border-radius: 6px;
-    margin: 15px 0;
+    margin: 35px 0 10px 0;
     padding: 5px;
   }
 
@@ -730,21 +738,20 @@ tbody tr:hover{
 }
 
 .footer-nav img{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     border-radius: 100%;
 }
 
 .footer-nav i{
-    font-size: 18px;
+    font-size: 15px;
     margin-right: 15px;
 }
 
 .footer-nav p{
     color: white;
-    font-size: 14px;
+    font-size: 12px;
     margin-left: 8px;
-    font-size: 14px;
 }
 
 /* Profile */
@@ -856,17 +863,13 @@ tbody tr:hover{
 /* Services */
 
 .service-box{
+    height: 230px;
+    width: 30%;
     border-radius: 10px;
-    height: 140px;
 }
 
 .service-box-bottom{
     margin-top: 25px;
-}
-
-.service-box{
-    width: 269px;
-    height: 250px;
 }
 
 .service-box i{
@@ -886,8 +889,8 @@ tbody tr:hover{
     text-align: left;
 }
 
-.second-service{
-    margin-top: 8px;
+.services-2{
+    margin-top: 35px;
 }
 
 .second-service-i{
