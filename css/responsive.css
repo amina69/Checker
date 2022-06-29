@@ -748,13 +748,13 @@
         margin: 10px;
     }
 
-    .main-2, .title-main{
+    .main-2, .main-3, .title-main{
         margin: 0;
         padding: 0
     }
 
-    .main-3 {
-        padding: 0 10px 0 0;
+    .main-3-no{
+        padding: 0 0 0 0;
     }
 
     .fa-bars{
