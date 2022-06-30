@@ -10,9 +10,10 @@ function login() {
     }, 3000)
 }
 
-let closeToggle = document.querySelector(".main");
+let closeToggle = document.querySelector("body");
 closeToggle.addEventListener("click", () => {
     toggleCallapse('navbarSupportedContent', 'hide');
+    toggleCallapse('nav-menu', 'hide');
 });
 
 const toggleCallapse = (elemId, action = false) => {
