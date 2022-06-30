@@ -151,8 +151,8 @@
                         <input class="none" type="text" name="address" placeholder="Address">
 
                         <div class="d-flex justify-content-between">
-                            <input class="Date" type="text" name="date" placeholder="Date">
-                            <input class="time none" type="text" name="time" placeholder="Time">
+                            <input class="Date" type="text" name="date" placeholder="Date" onfocus="(this.type='date')" onblur="(this.type='text')">
+                            <input class="time none" type="text" name="time" placeholder="Time" onfocus="(this.type='time')" onblur="(this.type='text')">
                         </div>
 
                         <div class="row">
@@ -201,7 +201,7 @@
                         </div>
                     </div>
 
-                    <div class="e-month mb-3 shadoww">
+                    <div class="e-month mb-3 shadoww last-margin">
                         <div class="e-duration">
                             <p class="p">You have been cordially invited to be our guest for the Adebimpe's wedding
                                 Having you at the party will be of a great pleasure for us.

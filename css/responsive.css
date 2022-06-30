@@ -129,7 +129,11 @@
     }
 
     .calender, .calender-sm {
-        padding: 20px;
+        padding: 0 20px;
+    }
+
+    .last-margin{
+        margin-bottom: 30px;
     }
 
     .sm-screen-nav-2{
@@ -279,7 +283,7 @@
 
     .socials i {
         font-size: 20px;
-        margin-left: 30px;
+        margin-left: 15px;
     }
 
     /* Programme */
@@ -322,6 +326,11 @@
 
     .top{
         margin-top: 40px;
+    }
+
+    .message input {
+        padding: 10px;
+    
     }
 
     /* Create New */
@@ -491,7 +500,11 @@
     }
 
     .calender, .calender-sm {
-        padding: 0 20px 20px 20px;
+        padding: 0 20px;
+    }
+
+    .last-margin{
+        margin-bottom: 30px;
     }
 
     /* .calender, .calender-sm{ 
