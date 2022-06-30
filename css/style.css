@@ -147,11 +147,11 @@ body{
 .login-btn button:hover, .signUp-btn button:hover {
     background-color: #cfb6ee;
     border: #cfb6ee 1px solid;
+    color: white;
 }
 
 .login-btn button a:hover, .signUp-btn button a:hover {
     text-decoration: none;
-    color: white;
 }
 
 .login-btn button a, .signUp-btn button a {
