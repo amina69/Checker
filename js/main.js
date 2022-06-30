@@ -7,7 +7,7 @@ function block() {
 function login() {
     window.setTimeout(() => {
         window.open("login.html","_self")
-    }, 2000)
+    }, 3000)
 }
 
 let closeToggle = document.querySelector(".main");

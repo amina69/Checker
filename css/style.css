@@ -309,7 +309,7 @@ body{
       margin-top: 50px;
   }
 
-  .actions-title, .todays, .guest-list, .programme, .service-title, .about-title, .contact-title {
+  .actions-title, .todays, .guest-list, .programme, .service-title, .about-title, .contact-title, .send-invite-title {
       margin-bottom: 13px;
       font-weight: 600;
       font-size: 14px;
@@ -645,8 +645,8 @@ tbody tr:hover{
     color: #58ed44;
 }
 
-.fa-circle-o-notch{
-    color: #7ac6ef;
+.p-active{
+    color: #009cf0;
 }
 
 .done{
