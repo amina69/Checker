@@ -283,7 +283,12 @@
 
     .socials i {
         font-size: 20px;
-        margin-left: 15px;
+        margin-left: 30px;
+    }
+
+    .socials-2 i {
+        font-size: 20px;
+        margin-left: 0px;
     }
 
     /* Programme */
@@ -313,14 +318,14 @@
         margin-top: 20% 0;
     }
 
-    /* About */
+    /* About Us*/
 
     .about-box div img {
         height: 150px;
         margin-bottom: 10px;
     }    
 
-    .about-col .about-text p {
+    .about-col .about-col p {
         padding: 3px;
     }
 
@@ -332,6 +337,15 @@
         padding: 10px;
     
     }
+
+    .padding-none{
+        padding: 0 10px;
+    }
+
+    .info-2{
+        margin-top: 40px;
+    }
+
 
     /* Create New */
 
@@ -692,14 +706,14 @@
     }
 
     .padding-none{
-        padding: 10px;
+        padding: 0 10px;
     }
 
-    .about-text, .contact-text{
+    .about-col, .contact-text{
         font-size: 11px;
     }
 
-    .about-col .about-text p{
+    .about-col .about-col p{
         padding: 0;
         margin-bottom: 0;
     }
@@ -899,6 +913,10 @@
 
     .calender-padd{
         padding: 10px;
+    }
+
+    .message input {
+        width: 100%;
     }
 
     /* Modal */

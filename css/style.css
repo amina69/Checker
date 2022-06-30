@@ -427,8 +427,13 @@ body{
 }
 
   /* Style the search box inside the navigation bar */
+  
+    .topnav input:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
   .topnav input{
-    border: none;
     width: 93%;
     background-color: white;
     border: 1px solid #cfcfcf;
@@ -436,6 +441,11 @@ body{
     margin: 35px 0 10px 0;
     padding: 5px;
   }
+
+  .inputClickAdd{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
 
   .topnav input::placeholder{
       padding-left: 10px;
@@ -785,6 +795,12 @@ tbody tr:hover{
     padding: 4px 6px;
 }
 
+.socials-2 i{
+    font-size: 20px;
+    margin-left: 30px;
+    padding: 4px 6px;
+}
+
 .fa-google{
     background-color: #d1b1f8;
     color: #381B5A;  
@@ -989,7 +1005,7 @@ tbody tr:hover{
 .about-box div:last-child{
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
-    padding: 0;
+    padding: 0 10px;
 }
 
 .about-box div:first-child{
@@ -1004,11 +1020,11 @@ tbody tr:hover{
     border-radius: 6px;
 }
 
-.about-text, .contact-text{
+.about-col, .contact-text{
     font-size: 13px;
 }
 
-.about-col .about-text p{
+.about-col .about-col p{
     padding: 15px;
 }
 
