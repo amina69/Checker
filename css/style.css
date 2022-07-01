@@ -88,6 +88,10 @@ body{
     margin-bottom: 30px;
 }
 
+.addForm-input input:focus, .invite-textarea:focus, .message input:focus, textarea:focus{
+    outline: 1px solid #c6bcd4;
+}
+
 .addForm-input input{
     width: 100%;
     outline: none;
@@ -132,7 +136,7 @@ body{
     margin-top: 5px;
 }
 
-.login-btn button, .signUp-btn button, .addForm-btn button, .start-btn button{
+.login-btn button, .signUp-btn button, .addForm-btn button{
     background-color: #ffffff;
     color: #301452;
     padding: 6px;
@@ -148,10 +152,6 @@ body{
     background-color: #cfb6ee;
     border: #cfb6ee 1px solid;
     color: white;
-}
-
-.login-btn button a:hover, .signUp-btn button a:hover {
-    text-decoration: none;
 }
 
 .login-btn button a, .signUp-btn button a {
@@ -430,7 +430,7 @@ body{
   
     .topnav input:focus {
         outline: none;
-        box-shadow: none;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     }
 
   .topnav input{
@@ -1069,7 +1069,9 @@ textarea{
     padding: 5px;
     margin: 0;
     margin-bottom: 10px
+
 }
+
 
 .addForm-input input.none{
     margin-bottom: 20px;

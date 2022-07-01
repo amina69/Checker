@@ -10,7 +10,7 @@ function login() {
     }, 3000)
 }
 
-let closeToggle = document.querySelector("body");
+let closeToggle = document.querySelector('nav');
 closeToggle.addEventListener("click", () => {
     toggleCallapse('navbarSupportedContent', 'hide');
     toggleCallapse('nav-menu', 'hide');
@@ -33,7 +33,7 @@ let inputClick = document.querySelectorAll('.button-click')
 
 inputClick.forEach(function(btn) {
 btn.addEventListener('click', function() {
-    
+
     this.classList.add('inputClickAdd')
 
     setTimeout(() => {
