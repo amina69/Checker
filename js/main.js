@@ -12,11 +12,11 @@ function login() {
 
 let closeToggle = document.querySelector('nav');
 closeToggle.addEventListener("click", () => {
-    toggleCallapse('navbarSupportedContent', 'hide');
-    toggleCallapse('nav-menu', 'hide');
+    toggleCollapse('navbarSupportedContent', 'hide');
+    toggleCollapse('nav-menu', 'hide');
 });
 
-const toggleCallapse = (elemId, action = false) => {
+const toggleCollapse = (elemId, action = false) => {
     let elem = document.getElementById(elemId);
     switch (action) {
         case 'hide':
@@ -28,6 +28,7 @@ const toggleCallapse = (elemId, action = false) => {
             break;
     }
 }
+
 
 let inputClick = document.querySelectorAll('.button-click')
 
@@ -42,12 +43,11 @@ btn.addEventListener('click', function() {
 })
 });
 
+let navActive = document.querySelectorAll('.active')
 
-/*inputClick.addEventListener('click', () => {
-    let selectInput = document.querySelector(".row .input");
-    selectInput.classList.add('inputClickAdd')
+navActive.forEach(function(link) {
+    link.addEventListener('click', function() {
+        this.classList.add('sidenav active')
+    })
+})
 
-    setTimeout(() => {
-        selectInput.classList.remove("inputClickAdd")
-    }, 400);
-});*/

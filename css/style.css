@@ -288,6 +288,10 @@ body{
   .sidenav a:hover {
     color: #f1f1f1;
   }
+
+  .sidenav .active{
+    color: white;
+}
   
   /* Style page content */
   .main {
