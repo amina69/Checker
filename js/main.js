@@ -10,10 +10,10 @@ function login() {
     }, 3000)
 }
 
-let closeToggle = document.querySelector('nav');
+let closeToggle = document.querySelector('.nav-background');
+
 closeToggle.addEventListener("click", () => {
     toggleCollapse('navbarSupportedContent', 'hide');
-    toggleCollapse('nav-menu', 'hide');
 });
 
 const toggleCollapse = (elemId, action = false) => {
@@ -29,6 +29,24 @@ const toggleCollapse = (elemId, action = false) => {
     }
 }
 
+let closeToggleNav = document.querySelector('nav');
+
+closeToggleNav.addEventListener("click", () => {
+    toggleCollapseNav('nav-menu', 'hide');
+});
+
+const toggleCollapseNav = (elemIdNav, actionNav = false) => {
+    let elemNav = document.getElementById(elemIdNav);
+    switch (actionNav) {
+        case 'hide':
+            $("#" + elemIdNav).collapse('hide');
+            break;
+    
+        default:
+            $("#" + elemIdNav).collapse('toggle');
+            break;
+    }
+}
 
 let inputClick = document.querySelectorAll('.button-click')
 
@@ -47,7 +65,33 @@ let navActive = document.querySelectorAll('.active')
 
 navActive.forEach(function(link) {
     link.addEventListener('click', function() {
-        this.classList.add('sidenav active')
+        let activePage = document.querySelectorAll('.activePage').getAttribute('href')
+        let home = document.querySelector('.homePage')
+        
+        switch (activePage) {
+            case 'homePage.html':
+                this.classList.add('sidenav active')
+                break;
+            case 'events.html':
+                this.classList.add('sidenav active')
+                break;
+            case 'profile.html':
+                this.classList.add('sidenav active')
+                break;
+            case 'programme.html':
+                this.classList.add('sidenav active')
+                break;
+            case 'services.html':
+                this.classList.add('sidenav active')
+                break;
+            case 'about.html':
+                this.classList.add('sidenav active')
+                break;
+        
+            default :
+                console.log(this)
+                break;
+        }
     })
 })
 
