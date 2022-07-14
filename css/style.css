@@ -592,6 +592,11 @@ tbody tr:hover{
     margin-bottom: 0px;
 }
 
+.button-click a{
+    color: #0E0B16;
+    text-decoration: none;
+}
+
 .modal-footer button{
     border: none;
 }

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <title>Events</title>
+    <title>Contact List</title>
 </head>
 
 <body onload="block()">
@@ -39,19 +39,7 @@
                             </div>
 
                             <div class="col-2">
-                                <a href="homePage.html">Dashboard</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="link d-flex flex-row">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="fa fa-th" aria-hidden="true"></i>
-                            </div>
-
-                            <div class="col-2">
-                                <a href="events.html" class="active">Events</a>
+                                <a href="homePage.html" class="active">Dashboard</a>
                             </div>
                         </div>
                     </div>
@@ -141,32 +129,62 @@
         </div>
     </nav>
 
+
     <div class="main">
         <div class="row main-2">
-            <div class="col-md-8 main-3">
+            <div class="col-md-9 main-3">
+                <div class="d-flex justify-content-between">
+                    <div class="button-click add-none add text-center"><a href="add-contact.html">
+                        <i class="fa fa-plus-square" aria-hidden="true"></i>
+                        <span>Add</span>
+                    </a></div>
 
-                <div class="d-flex justify-content-end mb-4">
-                    <div class="button-click del add-none float-right text-center">
-                        <i class="fa fa-trash-o" aria-hidden="true"></i>
-                        <span>Delete</span>
+                    <div>
+                        <div class="button-click add-none del float-right text-center">
+                            <i class="fa fa-trash-o" aria-hidden="true"></i>
+                            <span>Delete</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="event-list">
-                    <a href="event.html"><div class="d-flex event justify-content-between">
-                        <p>TajMi's Wedding</p>
-                        <p class="event-p">active</p>
-                    </div></a>
-                    <a href="event.html"><div class="d-flex event justify-content-between">
-                        <p>Florida Meeting</p>
-                        <p class="event-p">active</p>
-                    </div></a>
-                    <a href="event.html"><div class="d-flex event justify-content-between">
-                        <p>Daytime Party</p>
-                        <p class="event-p">active</p>
-                    </div></a>
+                <div class="main-programme-list">
+                    <table class="table">
+                        <thead class="programme-head">
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Phone</th>
+                                <th scope="col">Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="td">Amina Sheriff</td>
+                                <td class="td">09068546644</td>
+                                <td class="td">amina@</td>
+                            </tr>
+                            <tr>
+                                <td class="td">Kriss Tucker</td>
+                                <td class="td"></td>
+                                <td class="td">krisstucker@</td>
+                            </tr>
+                            <tr>
+                                <td class="td">Ayinde Mashal</td>
+                                <td class="td">00192922999</td>
+                                <td class="td">ayindemash@</td>
+                            </tr>
+                            <tr>
+                                <td class="td">Enoch Chibuzo</td>
+                                <td class="td">07048712834</td>
+                                <td class="td"></td>
+                            </tr>
+                            <tr>
+                                <td class="td">Grace Jamil</td>
+                                <td class="td">08170273590</td>
+                                <td class="td">jamil001@</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-
             </div>
 
 
@@ -178,7 +196,7 @@
             </nav>
 
 
-            <div class="col-md-4 calender sm-screen-cal">
+            <div class="col-md-3 calender-sm sm-screen-cal">
 
                 <div class="collapse navbar-collapse js-navbar" id="nav-menu">
 
@@ -194,78 +212,43 @@
                         </div>
                     </div>
 
-
                     <div class="row">
-                        <div class="col-8">
-                            <div class="guest-list">Active Durations</div>
-                        </div>
-                        <div class="col-4 my-auto">
-                            <div class="d-flex view-all justify-content-end">View All</div>
-                        </div>
-                    </div>
-
-                    <div class="e-month mb-3 shadoww shadow">
-                        <div class="d-flex justify-content-between e-duration">
-                            <p>Event</p>
-                            <p>Tajmi's Wedding</p>
-                        </div>
-                        <div class="d-flex justify-content-between e-duration">
-                            <p>Event Date</p>
-                            <p class="date">August-12-2023</p>
-                        </div>
-                        <div class="d-flex justify-content-between e-duration">
-                            <p>Active</p>
-                            <p class="active">2days Ago</p>
-                        </div>
-                        <div class="d-flex justify-content-between e-duration">
-                            <p class="count">Coundown</p>
-                            <p>3days 12hrs 24min 56</p>
-                        </div>
-                    </div>
-
-                    <div class="e-month mb-3 shadoww shadow">
-                        <div class="d-flex justify-content-between e-duration">
-                            <p>Event</p>
-                            <p>Florida Meeting</p>
-                        </div>
-                        <div class="d-flex justify-content-between e-duration">
-                            <p>Event Date</p>
-                            <p class="date">August-16-2023</p>
-                        </div>
-                        <div class="d-flex justify-content-between e-duration">
-                            <p>Active</p>
-                            <p class="active">Now</p>
-                        </div>
-                        <div class="d-flex justify-content-between e-duration">
-                            <p class="count">Coundown</p>
-                            <p>5days 7hrs 24min 00</p>
+                        <div class="col-12">
+                            <div class="guest-list">Programme Summary</div>
                         </div>
                     </div>
 
                     <div class="e-month mb-3 shadoww shadow last-margin">
-                        <div class="d-flex justify-content-between e-duration">
-                            <p>Event</p>
-                            <p>Daytime Party</p>
+                        <div class="d-flex justify-content-between text-left e-duration my-2">
+                            <p>No. of items on list</p>
+                            <p>10 Items</p>
                         </div>
-                        <div class="d-flex justify-content-between e-duration">
-                            <p>Event Date</p>
-                            <p class="date">December-25-2023</p>
+                        <div class="d-flex justify-content-between text-left e-duration my-2">
+                            <p>Total Hours</p>
+                            <p>10 hours</p>
                         </div>
-                        <div class="d-flex justify-content-between e-duration">
-                            <p>Last Active</p>
-                            <p class="active">2weeks Ago</p>
+                        <div class="d-flex justify-content-between text-left e-duration my-2">
+                            <p>Arrival Time</p>
+                            <p>9:00am</p>
                         </div>
-                        <div class="d-flex justify-content-between e-duration">
-                            <p class="count">Coundown</p>
-                            <p>15wks 2days 12hrs 24min 56</p>
+                        <div class="d-flex justify-content-between text-left e-duration my-2">
+                            <p>Closing Time</p>
+                            <p>4:00pm</p>
+                        </div>
+                        <div class="d-flex justify-content-between text-left e-duration my-2">
+                            <p>Tea Break</p>
+                            <p>2:00pm</p>
+                        </div>
+                        <div class="d-flex justify-content-between text-left e-duration my-2">
+                            <p>Dinner</p>
+                            <p>4:00pm</p>
                         </div>
                     </div>
                 </div>
             </div>
+</div>
         </div>
     </div>
-    </div>
-
 
 </body>
 <script src="js/jquery.slim.min.js"></script>
