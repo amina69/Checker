@@ -847,6 +847,11 @@ tbody tr:hover{
     background-color: #f0f0f0;
 }
 
+.event-list a{
+    color: #0E0B16;
+    text-decoration: none;
+}
+
 .e-month, .e-sendInvites {
     padding: 10px;
   }

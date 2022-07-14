@@ -172,6 +172,7 @@
 
     .main-2, .main-3, .title-main{
         margin: 0;
+        margin-bottom: 20px;
         padding: 0
     }
 
@@ -333,7 +334,11 @@
     .about-box div img {
         height: 150px;
         margin-bottom: 10px;
-    }    
+    }
+    
+    .about-box div:last-child {
+        padding: 0;
+    }
 
     .about-col .about-col p {
         padding: 3px;
@@ -363,10 +368,31 @@
         padding: 10px;
     }
 
+    .add, .del, .modal-footer button{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .add-none{
+        width: 100px;
+    }
+
     /* Send Invites */
 
     .invite-padd {
         margin: 0px;
+    }
+
+    .event-list {
+        margin-top: 0px;
+    }
+
+    .main-programme-list{
+        margin-top: 20px;
+    }
+
+    .e-month{
+        padding-bottom: 30px;
     }
 
     /* Add Guest*/
@@ -530,6 +556,7 @@
 
     .main-2, .main-3, .title-main{
         margin: 0;
+        margin-bottom: 20px;
         padding: 0
     }
 
@@ -725,6 +752,10 @@
         height: 150px;
     }
 
+    .about-box div:last-child {
+        padding: 0;
+    }
+
     .padding-none{
         padding: 0 10px;
     }
@@ -748,6 +779,15 @@
         padding: 10px;
     }
 
+    .add, .del, .modal-footer button{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .add-none{
+        width: 120px;
+    }
+
     /* Send Invite */
 
     .invite-padd {
@@ -764,6 +804,18 @@
 
     .saved-invite .invite-padd .pp{
         margin: 0
+    }
+
+    .event-list {
+        margin-top: 0px;
+    }
+
+    .main-programme-list{
+        margin-top: 20px;
+    }
+
+    .e-month{
+        padding-bottom: 30px;
     }
 
     /* Add Guest */

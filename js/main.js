@@ -6,7 +6,7 @@ function block() {
 
 function login() {
     window.setTimeout(() => {
-        window.open("login.html","_self")
+        window.open("login.html", "_self")
     }, 3000)
 }
 
@@ -22,7 +22,7 @@ const toggleCollapse = (elemId, action = false) => {
         case 'hide':
             $("#" + elemId).collapse('hide');
             break;
-    
+
         default:
             $("#" + elemId).collapse('toggle');
             break;
@@ -41,7 +41,7 @@ const toggleCollapseNav = (elemIdNav, actionNav = false) => {
         case 'hide':
             $("#" + elemIdNav).collapse('hide');
             break;
-    
+
         default:
             $("#" + elemIdNav).collapse('toggle');
             break;
@@ -50,48 +50,40 @@ const toggleCollapseNav = (elemIdNav, actionNav = false) => {
 
 let inputClick = document.querySelectorAll('.button-click')
 
-inputClick.forEach(function(btn) {
-btn.addEventListener('click', function() {
+inputClick.forEach(function (btn) {
+    btn.addEventListener('click', function () {
 
-    this.classList.add('inputClickAdd')
+        this.classList.add('inputClickAdd')
 
-    setTimeout(() => {
-        this.classList.remove("inputClickAdd")
-    }, 400);
-})
+        setTimeout(() => {
+            this.classList.remove("inputClickAdd")
+        }, 400);
+    })
 });
 
-let navActive = document.querySelectorAll('.active')
+let eventClick = document.querySelectorAll('.event')
+let eventP = document.querySelectorAll('.event-p');
 
-navActive.forEach(function(link) {
-    link.addEventListener('click', function() {
-        let activePage = document.querySelectorAll('.activePage').getAttribute('href')
-        let home = document.querySelector('.homePage')
+eventClick.forEach(function (evt) {
+    evt.addEventListener('click', function () {
+        eventP.forEach(function (ev) {
         
-        switch (activePage) {
-            case 'homePage.html':
-                this.classList.add('sidenav active')
-                break;
-            case 'events.html':
-                this.classList.add('sidenav active')
-                break;
-            case 'profile.html':
-                this.classList.add('sidenav active')
-                break;
-            case 'programme.html':
-                this.classList.add('sidenav active')
-                break;
-            case 'services.html':
-                this.classList.add('sidenav active')
-                break;
-            case 'about.html':
-                this.classList.add('sidenav active')
-                break;
-        
-            default :
-                console.log(this)
-                break;
-        }
-    })
+            ev        .classList.add('active')
+                   
+        })
+           
+})
 })
 
+const setActiveLink = () => {
+    let currentUrl = window.location.pathname;
+    let firstChar = currentUrl.substr(0, 1);
+    if (firstChar === '/') {
+        currentUrl = currentUrl.substring(1);
+    }
+    console.log('here ---', currentUrl);
+    let a = document.querySelectorAll('a[href="' + currentUrl + '"]');
+    console.log({ a });
+
+}
+setActiveLink();
