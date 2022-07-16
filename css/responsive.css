@@ -33,10 +33,6 @@
         margin: 0;
     }
 
-    .login-img img, .signUp-img-side img{
-        width: 200px;
-    }
-
     .login-sm, .signup-sm{
         margin-bottom: 10px;
     }
@@ -59,8 +55,9 @@
         margin-bottom: 20px;
     }
 
-    .login img, .signUp-img-side img{
-        width: 260px;
+    .login-img img, .signUp-img-side img{
+        width: 100px;
+        margin-top: 50px;
     }
 
     .signUp-img-side img{
@@ -71,21 +68,25 @@
         padding: 15px 30px;
     }
 
+    .or-img{
+        margin-top: 20px;
+    }
+
     .or-img img{
         width: 80px;
     }
 
     .or-img span, .login-with{
         font-size: 10px;
+        margin-bottom: 20px;
     }
 
     .login-img h4, .signUp-img-side h4{
         font-size: 12px;
-        margin-top: 0px;
     }
 
     .register-link, .login-link{
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     .login-btn button, .signUp-btn button{
@@ -440,6 +441,7 @@
 
     .register-link, .login-link {
         padding-bottom: 0;
+        margin-top: 15px;
     }
 
     .login-form, .signUp-form-side{
@@ -451,8 +453,9 @@
         margin-bottom: 20px;
     }
 
-    .login img, .signUp-img-side img{
-        width: 260px;
+    .login-img img, .signUp-img-side img{
+        width: 100px;
+        margin-top: 40px;
     }
 
     .signUp-img-side img{
@@ -463,21 +466,21 @@
         padding: 15px 30px;
     }
 
+    .or-img{
+        margin: 10px 0;
+    }
+
     .or-img img{
         width: 80px;
     }
 
     .or-img span, .login-with{
         font-size: 10px;
+        margin-bottom: 10px;
     }
 
     .login-img h4, .signUp-img-side h4{
         font-size: 12px;
-        margin-top: 0px;
-    }
-
-    .register-link, .login-link{
-        margin-top: 10px;
     }
 
     .login-btn button, .signUp-btn button{
@@ -610,6 +613,7 @@
 
     .welcome .img img {
         width: 150px;
+        margin-top: 30px;
     }
 
     .topnav input {
@@ -845,7 +849,7 @@
     }
 
     .login img, .signUp-img-side img{
-        width: 350px;
+        width: 150px;
     }
 
     .login-form, .signUp-form-side{
@@ -952,7 +956,8 @@
     }
 
     .welcome .img img {
-        width: 150px;
+        width: 120px;
+        margin-top: 35px;
     }
 
     .welcome .text{
@@ -1081,9 +1086,10 @@
         font-size: 10px;
     }
 
-    .login-img img{
-        width: 380px;
+    .login-img img, .signUp-img-side img{
+        width: 150px;
     }
+
 
     /* Dashboard */
 
@@ -1124,8 +1130,9 @@
         margin-right: auto;
     }
 
-    .welcome .img img{
-        width: 170px;
+    .welcome .img img {
+        width: 130px;
+        margin-top: 30px;
     }
 
 
@@ -1173,6 +1180,11 @@
 
     .topnav input{
         width: 92%;
+    }
+
+    .welcome .img img {
+        width: 150px;
+        margin-top: 25px;
     }
 
     /* Services */

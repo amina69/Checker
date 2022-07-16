@@ -51,11 +51,11 @@ body{
 }
 
 .login-img img{
-    width: 450px;
+    width: 200px;
 }
 
 .signUp-img-side img{
-    width: 350px;
+    width: 200px;
 }
 
 .login-form, .signUp-form-side{
@@ -67,6 +67,7 @@ body{
 .login-img h4, .signUp-img-side h4{
     font-size: 15px;
     color: #301452;
+    margin-top: 50px;
 }
 
 .signUp-img-side h4{
@@ -413,7 +414,8 @@ body{
 }
 
 .welcome .img img{
-    width: 190px;
+    width: 160px;
+    margin-top: 22px;
 }
 
 .welcome .text{
