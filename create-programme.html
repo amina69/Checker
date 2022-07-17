@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <title>Create-Invite</title>
+    <title>Create-Programme</title>
 </head>
 
 <body onload="block()">
@@ -118,45 +118,58 @@
     </nav>
 
     <div class="main">
-        <div class="service-title title-main">Create Invite</div>
+        <div class="service-title title-main">Create Programme</div>
         <div class="row main-2">
             <div class="col-md-8 main-3">
                 <div class="form main-add">
                     <div class="addForm-input">
-                        <textarea class="invite-textarea" type="textarea" name="form"
-                            placeholder="Invitation Body"></textarea>
-                        <input type="text" name="venue" placeholder="Venue">
-                        <input class="none" type="text" name="address" placeholder="Address">
+                        <div class="row">
+                            <div class="col-8">
+                                <input class="none" type="text" name="programme" placeholder="Programme">
+                            </div>
 
-                        <div class="d-flex justify-content-between">
-                            <input class="Date" type="text" name="date" placeholder="Date" onfocus="(this.type='date')"
-                                onblur="(this.type='text')">
-                            <input class="time none" type="text" name="time" placeholder="Time"
-                                onfocus="(this.type='time')" onblur="(this.type='text')">
+                            <div class="col-4">
+                                <input class="time none" type="text" name="time" placeholder="Time"
+                                    onfocus="(this.type='time')" onblur="(this.type='text')">
+                            </div>
                         </div>
 
                         <div class="row">
-                            <div class="col-12">
-                                <div class="button-click add add-width text-center my-2">
-                                    <i class="fa fa-floppy-o" aria-hidden="true"></i>
-                                    <span>Save</span>
+                            <div class="col-8">
+                                <input class="none" type="text" name="programme" placeholder="Programme">
+                            </div>
+
+                            <div class="col-4">
+                                <input class="time none" type="text" name="time" placeholder="Time"
+                                    onfocus="(this.type='time')" onblur="(this.type='text')">
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-end">
+                            <div class="add-p">
+                                <i class="fa fa-plus-square" aria-hidden="true"></i>
+                            </div>
+
+                        </div>
+
+                            <div class="row">
+                                <div class="col-md-5 col-sm-12">
+                                    <div class="button-click add add-width text-center my-2">
+                                        <i class="fa fa-floppy-o" aria-hidden="true"></i>
+                                        <span>Save</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-5 ml-auto col-sm-12">
+                                    <div class="button-click add add-width text-center my-2"><a href="programme.html">
+                                            <i class="fa fa-share" aria-hidden="true"></i>
+                                            <span>View</span>
+                                        </a></div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="button-click add add-width text-center my-2"><a href="send-invite.html">
-                                    <i class="fa fa-share" aria-hidden="true"></i>
-                                    <span>Share Invite</span>
-                                </a></div>
-                            </div>
-                        </div>
-
-                    </div>
                 </div>
             </div>
-
+            </div>
 
 
             <nav class="navbar navbar-expand-lg nav-2 ml-auto sm-screen-nav-2">

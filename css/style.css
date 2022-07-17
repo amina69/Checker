@@ -683,6 +683,11 @@ tbody tr:hover{
     color: white;
 }
 
+.add-p i{
+    font-size: 35px;
+    margin: 30px 0;
+}
+
 .table thead th{
     font-size: 13px;
 }

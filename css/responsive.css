@@ -219,7 +219,7 @@
     }
 
     .welcome .img img {
-        width: 150px;
+        width: 143px;
     }
 
     .topnav input {
@@ -309,6 +309,11 @@
         font-size: 11px;
     }
 
+    .add-p i{
+        font-size: 40px;
+        margin: 30px 0;
+    }
+
     /* Services */
 
     .service-box {
@@ -392,10 +397,6 @@
         margin-top: 20px;
     }
 
-    .e-month{
-        padding-bottom: 30px;
-    }
-
     /* Add Guest*/
 
     .addForm-input input{
@@ -423,6 +424,10 @@
 
     .logo img{
         width: 50px;
+    }
+
+    .dis{
+        display: block
     }
 
     /* Login / signup */
@@ -712,6 +717,11 @@
         font-size: 11px;
     }
 
+    .add-p i{
+        font-size: 40px;
+        margin: 30px 0;
+    }
+
     /* Services */
 
     .aim {
@@ -799,14 +809,14 @@
     }
 
     .saved-invite{
-        margin: 0;
+        margin: 10px 0;
     }
 
     .saved-invite .create-new-title{
         margin-bottom: 10px;
     }
 
-    .saved-invite .invite-padd .pp{
+    .invite-padd .pp{
         margin: 0
     }
 
@@ -816,10 +826,6 @@
 
     .main-programme-list{
         margin-top: 20px;
-    }
-
-    .e-month{
-        padding-bottom: 30px;
     }
 
     /* Add Guest */
@@ -975,6 +981,12 @@
 
     .main-profile{
         padding: 15px 0;
+    }
+
+    /* Programme */
+    .add-p i{
+        font-size: 40px;
+        margin: 30px 0;
     }
 
     /* Services */
@@ -1142,6 +1154,13 @@
         padding: 15px 0;
     }
 
+    /* Programme */
+
+    .add-p i{
+        font-size: 30px;
+        margin: 30px 0;
+    }
+
     /* Services */
 
     .service-box {
@@ -1205,6 +1224,13 @@
 
     .calender, .calender-sm{
         padding: 0 20px 20px 20px;
+    }
+
+    /* Programme */
+
+    .add-p i{
+        font-size: 30px;
+        margin: 30px 0;
     }
 
 }
